@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TrabajoPractico.Properties
+namespace Programacion_3.Properties
 {
 
 
