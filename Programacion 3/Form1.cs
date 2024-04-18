@@ -41,5 +41,10 @@ namespace TrabajoPractico
         {
 
         }
+
+        private void artículosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
