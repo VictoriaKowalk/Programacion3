@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Programacion_3
 {
-    public partial class frmModificar : Form
+    public partial class frmMarcas : Form
     {
-        public frmModificar()
+        public frmMarcas()
         {
             InitializeComponent();
         }

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace TrabajoPractico
 {
-    public partial class Principal : Form
+    public partial class frmPrincipal : Form
     {
-        public Principal()
+        public frmPrincipal()
         {
             InitializeComponent();
             cboMarcas.Items.Add("Apple");
@@ -50,19 +50,37 @@ namespace TrabajoPractico
 
         private void listarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Listado ventana = new Listado();
+            frmListado ventana = new frmListado();
             ventana.Show();
         }
 
         private void agregarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Agregar ventana = new Agregar();
+            frmAgregar ventana = new frmAgregar();
             ventana.Show();
         }
 
         private void modificarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Modificar ventana = new Modificar();
+            frmModificar ventana = new frmModificar();
+            ventana.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmModificar ventana = new frmModificar();
+            ventana.Show();
+        }
+
+        private void administrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMarcas ventana = new frmMarcas();
+            ventana.Show();
+        }
+
+        private void administrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmCategorias ventana = new frmCategorias();
             ventana.Show();
         }
     }

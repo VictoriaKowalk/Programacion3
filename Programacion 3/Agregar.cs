@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Programacion_3
 {
-    public partial class Agregar : Form
+    public partial class frmAgregar : Form
     {
-        public Agregar()
+        public frmAgregar()
         {
             InitializeComponent();
         }
@@ -20,6 +20,21 @@ namespace Programacion_3
         private void btnAgregado_Click(object sender, EventArgs e)
         {
             MessageBox.Show("AGREGADO CORRECTAMENTE");
+        }
+
+        private void lblAgregarArt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

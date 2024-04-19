@@ -1,6 +1,6 @@
 ﻿namespace Programacion_3
 {
-    partial class Listado
+    partial class frmListado
     {
         /// <summary>
         /// Required designer variable.
@@ -28,58 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
             this.lblCatagolo = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.lbxArticulos = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(71, 342);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 0;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(269, 342);
+            this.btnEliminar.Location = new System.Drawing.Point(54, 227);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(117, 19);
             this.btnEliminar.TabIndex = 1;
-            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.Text = "Eliminar artículo";
             this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(168, 342);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 2;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
             // 
             // lblCatagolo
             // 
             this.lblCatagolo.AutoSize = true;
-            this.lblCatagolo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCatagolo.Location = new System.Drawing.Point(64, 51);
+            this.lblCatagolo.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCatagolo.Location = new System.Drawing.Point(48, 41);
+            this.lblCatagolo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCatagolo.Name = "lblCatagolo";
-            this.lblCatagolo.Size = new System.Drawing.Size(340, 38);
+            this.lblCatagolo.Size = new System.Drawing.Size(248, 31);
             this.lblCatagolo.TabIndex = 3;
-            this.lblCatagolo.Text = "Listado de Articulos";
+            this.lblCatagolo.Text = "Listado de artículos";
             this.lblCatagolo.Click += new System.EventHandler(this.lblCatagolo_Click);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(646, 405);
+            this.btnBuscar.Location = new System.Drawing.Point(358, 280);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(56, 19);
             this.btnBuscar.TabIndex = 4;
             this.btnBuscar.Text = "Volver";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -88,25 +70,25 @@
             // lbxArticulos
             // 
             this.lbxArticulos.FormattingEnabled = true;
-            this.lbxArticulos.ItemHeight = 16;
-            this.lbxArticulos.Location = new System.Drawing.Point(74, 161);
+            this.lbxArticulos.Location = new System.Drawing.Point(54, 95);
+            this.lbxArticulos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lbxArticulos.Name = "lbxArticulos";
-            this.lbxArticulos.Size = new System.Drawing.Size(457, 132);
+            this.lbxArticulos.Size = new System.Drawing.Size(270, 108);
             this.lbxArticulos.TabIndex = 5;
             // 
-            // Listado
+            // frmListado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(425, 310);
             this.Controls.Add(this.lbxArticulos);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblCatagolo);
-            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.btnAgregar);
-            this.Name = "Listado";
-            this.Text = "Form2";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "frmListado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Listado";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -114,10 +96,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Label lblCatagolo;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.ListBox lbxArticulos;

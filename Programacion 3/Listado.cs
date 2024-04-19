@@ -11,9 +11,9 @@ using TrabajoPractico;
 
 namespace Programacion_3
 {
-    public partial class Listado : Form
+    public partial class frmListado : Form
     {
-        public Listado()
+        public frmListado()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace Programacion_3
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Agregar ventana = new Agregar();
+            frmAgregar ventana = new frmAgregar();
             ventana.Show();
         }
 
@@ -35,8 +35,6 @@ namespace Programacion_3
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             this.Close();
-            Principal ventana = new Principal();
-            ventana.Show();
         }
     }
 }
