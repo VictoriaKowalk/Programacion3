@@ -15,6 +15,10 @@ namespace Programacion_3
         public frmCategorias()
         {
             InitializeComponent();
+            //Fondo para la app
+            Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
+            this.BackgroundImage = img;
+            this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

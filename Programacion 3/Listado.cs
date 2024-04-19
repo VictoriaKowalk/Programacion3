@@ -16,6 +16,10 @@ namespace Programacion_3
         public frmListado()
         {
             InitializeComponent();
+            //Fondo para la app
+            Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
+            this.BackgroundImage = img;
+            this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
         private void Form2_Load(object sender, EventArgs e)
         {

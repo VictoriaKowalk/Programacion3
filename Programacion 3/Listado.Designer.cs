@@ -49,10 +49,11 @@
             // lblCatagolo
             // 
             this.lblCatagolo.AutoSize = true;
-            this.lblCatagolo.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCatagolo.BackColor = System.Drawing.Color.Transparent;
+            this.lblCatagolo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCatagolo.Location = new System.Drawing.Point(64, 50);
             this.lblCatagolo.Name = "lblCatagolo";
-            this.lblCatagolo.Size = new System.Drawing.Size(298, 38);
+            this.lblCatagolo.Size = new System.Drawing.Size(343, 39);
             this.lblCatagolo.TabIndex = 3;
             this.lblCatagolo.Text = "Listado de artículos";
             this.lblCatagolo.Click += new System.EventHandler(this.lblCatagolo_Click);
@@ -75,18 +76,18 @@
             this.lbxArticulos.Items.AddRange(new object[] {
             "Remera",
             "Zapatillas"});
-            this.lbxArticulos.Location = new System.Drawing.Point(72, 117);
+            this.lbxArticulos.Location = new System.Drawing.Point(71, 116);
             this.lbxArticulos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lbxArticulos.Name = "lbxArticulos";
-            this.lbxArticulos.Size = new System.Drawing.Size(328, 132);
+            this.lbxArticulos.Size = new System.Drawing.Size(314, 132);
             this.lbxArticulos.TabIndex = 5;
             this.lbxArticulos.SelectedIndexChanged += new System.EventHandler(this.lbxArticulos_SelectedIndexChanged);
             // 
             // pbxLista
             // 
-            this.pbxLista.Location = new System.Drawing.Point(423, 118);
+            this.pbxLista.Location = new System.Drawing.Point(391, 118);
             this.pbxLista.Name = "pbxLista";
-            this.pbxLista.Size = new System.Drawing.Size(128, 130);
+            this.pbxLista.Size = new System.Drawing.Size(160, 130);
             this.pbxLista.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxLista.TabIndex = 6;
             this.pbxLista.TabStop = false;

@@ -16,6 +16,11 @@ namespace TrabajoPractico
         public frmPrincipal()
         {
             InitializeComponent();
+            //Fondo para la app
+            Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
+            this.BackgroundImage = img;
+            this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
+
             cboMarcas.Items.Add("Apple");
             cboMarcas.Items.Add("Huawei");
             cboMarcas.Items.Add("Motorola");
