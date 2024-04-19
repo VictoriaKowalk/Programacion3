@@ -29,12 +29,16 @@ namespace Programacion_3
 
         private void lblCatagolo_Click(object sender, EventArgs e)
         {
-
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lbxArticulos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            pbxLista.ImageLocation = "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\imagenes" + lbxArticulos.Text + ".png";
         }
     }
 }

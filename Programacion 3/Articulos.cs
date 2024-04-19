@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace Programacion_3
 {
     internal class Articulos
     {
-
+        public static Image Imagen { get; internal set; }
         public int _idArticulo { get; set; }
         [DisplayName("Codigo ")]
         public string _CodigoArticulo { get; set; }
