@@ -1,6 +1,6 @@
 ﻿namespace Programacion_3
 {
-    partial class Form2
+    partial class Listado
     {
         /// <summary>
         /// Required designer variable.
@@ -70,29 +70,31 @@
             this.lblCatagolo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCatagolo.Location = new System.Drawing.Point(64, 51);
             this.lblCatagolo.Name = "lblCatagolo";
-            this.lblCatagolo.Size = new System.Drawing.Size(166, 39);
+            this.lblCatagolo.Size = new System.Drawing.Size(340, 38);
             this.lblCatagolo.TabIndex = 3;
-            this.lblCatagolo.Text = "Catalogo";
+            this.lblCatagolo.Text = "Listado de Articulos";
+            this.lblCatagolo.Click += new System.EventHandler(this.lblCatagolo_Click);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(456, 316);
+            this.btnBuscar.Location = new System.Drawing.Point(646, 405);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 4;
-            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Text = "Volver";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // lbxArticulos
             // 
             this.lbxArticulos.FormattingEnabled = true;
             this.lbxArticulos.ItemHeight = 16;
-            this.lbxArticulos.Location = new System.Drawing.Point(74, 178);
+            this.lbxArticulos.Location = new System.Drawing.Point(74, 161);
             this.lbxArticulos.Name = "lbxArticulos";
             this.lbxArticulos.Size = new System.Drawing.Size(457, 132);
             this.lbxArticulos.TabIndex = 5;
             // 
-            // Form2
+            // Listado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -103,7 +105,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
-            this.Name = "Form2";
+            this.Name = "Listado";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

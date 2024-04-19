@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TrabajoPractico;
 
 namespace Programacion_3
 {
-    public partial class Form2 : Form
+    public partial class Listado : Form
     {
-        public Form2()
+        public Listado()
         {
             InitializeComponent();
         }
@@ -22,6 +23,20 @@ namespace Programacion_3
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            Agregar ventana = new Agregar();
+            ventana.Show();
+        }
+
+        private void lblCatagolo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Principal ventana = new Principal();
+            ventana.Show();
         }
     }
 }

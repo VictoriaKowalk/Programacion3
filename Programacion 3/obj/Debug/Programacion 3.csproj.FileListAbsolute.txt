@@ -2,10 +2,11 @@ C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacio
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\bin\Debug\Programacion 3.exe
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\bin\Debug\Programacion 3.pdb
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.AssemblyReference.cache
-C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\TrabajoPractico.Form1.resources
-C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.Form2.resources
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.Properties.Resources.resources
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.GenerateResource.cache
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.CoreCompileInputs.cache
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion 3.exe
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion 3.pdb
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\TrabajoPractico.Principal.resources
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.Listado.resources
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.Agregar.resources

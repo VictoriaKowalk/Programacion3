@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\listado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:listado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\listado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:listado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\actividad 2\\repositorio\\programacion3\\programacion 3\\modificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:modificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,29 +38,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Agregar.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Agregar.cs",
+              "RelativeDocumentMoniker": "Agregar.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Agregar.cs",
+              "RelativeToolTip": "Agregar.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwBUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T00:08:05.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Modificar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Modificar.cs",
+              "RelativeDocumentMoniker": "Modificar.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Modificar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Modificar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:54:58.904Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAhwBsAAAAAAAAA",
+              "Title": "Agregar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Agregar.cs",
+              "RelativeDocumentMoniker": "Agregar.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Agregar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Agregar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:44:05.363Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Listado.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Listado.cs",
+              "RelativeDocumentMoniker": "Listado.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Listado.cs",
+              "RelativeToolTip": "Listado.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAApwCQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T22:58:39.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "Listado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Listado.cs",
+              "RelativeDocumentMoniker": "Listado.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Listado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Listado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T22:39:35.108Z",
               "EditorCaption": " [Dise\u00F1o]"
@@ -56,12 +105,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Principal.cs",
+              "RelativeToolTip": "Principal.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAApwEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T22:30:45.262Z",
               "EditorCaption": ""
@@ -69,11 +118,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T22:30:03.58Z",
               "EditorCaption": " [Dise\u00F1o]"
