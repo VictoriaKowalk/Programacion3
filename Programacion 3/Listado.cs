@@ -13,6 +13,7 @@ namespace Programacion_3
 {
     public partial class frmListado : Form
     {
+        private List<Articulo> listaArticulos;
         public frmListado()
         {
             InitializeComponent();
@@ -23,7 +24,10 @@ namespace Programacion_3
         }
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            listaArticulos = negocio.listar();
+            dgvArticulos.DataSource = listaArticulos;
+            pbxArticulo.Load(listaArticulos[0].UrlImagen);
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -40,9 +44,5 @@ namespace Programacion_3
             this.Close();
         }
 
-        private void lbxArticulos_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            pbxLista.ImageLocation = "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Programacion 3\\imagenes" + lbxArticulos.Text + ".png";
-        }
     }
 }

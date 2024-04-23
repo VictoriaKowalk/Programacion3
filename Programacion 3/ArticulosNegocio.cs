@@ -20,7 +20,7 @@ namespace Programacion_3
             {
                 conexion.ConnectionString = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT * FROM ARTICULOS";
+                comando.CommandText = "SELECT IdArticulo, Codigo, Nombre, Descripcion, ImagenUrl FROM ARTICULOS INNER JOIN IMAGENES ON IMAGENES.IdArticulo=ARTICULOS.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -33,6 +33,7 @@ namespace Programacion_3
                     aux.Codigo = (string)lector["Codigo"];
                     aux.Nombre = (string)lector["Nombre"];
                     aux.Descripcion = (string)lector["Descripcion"];
+                    aux.UrlImagen = (string)lector["ImagenURL"];
 
                     lista.Add(aux);
                 }

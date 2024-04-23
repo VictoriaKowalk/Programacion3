@@ -33,8 +33,6 @@ namespace Programacion_3
 
         private void frmMarcas_Load(object sender, EventArgs e)
         {
-            ArticulosNegocio negocio = new ArticulosNegocio();
-            dgvArticulos.DataSource = negocio.listar();
         }
     }
 }
