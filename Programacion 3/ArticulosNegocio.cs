@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,9 +18,8 @@ namespace Programacion_3
 
             try
             {
-                conexion.ConnectionString = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT IdArticulo, Codigo, Nombre, Descripcion, ImagenUrl FROM ARTICULOS INNER JOIN IMAGENES ON IMAGENES.IdArticulo=ARTICULOS.Id";
+                conexion.ConnectionString = "Data Source=DESKTOP-LPCCPED\\SQLEXPRESS;Initial Catalog=CATALOGO_P3_DB;Integrated Security=True";
+                comando.CommandText = "SELECT A.Id, Codigo, Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria,\r\nI.ImagenUrl, Precio,M.Id,C.Id \r\nFROM ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND I.IdArticulo=A.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -35,16 +34,34 @@ namespace Programacion_3
                     aux.Descripcion = (string)lector["Descripcion"];
                     aux.UrlImagen = (string)lector["ImagenURL"];
 
+                    aux.Marca = new Marca();
+                    aux.Categoria = new Categoria();
+
+
+                    aux.Categoria.Nombre = (string)lector["Categoria"];
+                    aux.Categoria.IDCategoria = (int)lector["Id"];
+                    aux.Marca.Nombre = (string)lector["Marca"];
+                    aux.Marca.IDMarca = (int)lector["Id"];
+
+                    if (!(lector["ImagenUrl"] is DBNull))
+                        aux.UrlImagen = (string)lector["ImagenUrl"];
+
                     lista.Add(aux);
+
+                    
+                    
                 }
 
-                conexion.Close();
+
                 return lista;
+
+
+
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
         }
