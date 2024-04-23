@@ -27,6 +27,8 @@ namespace Programacion_3
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.listar();
             dgvArticulos.DataSource = listaArticulos;
+             dgvArticulos.Columns["UrlImagen"].Visible = false;
+            dgvArticulos.Columns["IDArticulo"].Visible = false;
             pbxArticulo.Load(listaArticulos[0].UrlImagen);
         }
         private void btnAgregar_Click(object sender, EventArgs e)
