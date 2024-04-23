@@ -52,7 +52,8 @@
     <Compile Include="Agregar.Designer.cs">
       <DependentUpon>Agregar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Articulos.cs" />
+    <Compile Include="Articulo.cs" />
+    <Compile Include="ArticulosNegocio.cs" />
     <Compile Include="Categoria.cs" />
     <Compile Include="Categorias.cs">
       <SubType>Form</SubType>

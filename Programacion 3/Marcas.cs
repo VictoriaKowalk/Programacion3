@@ -25,5 +25,16 @@ namespace Programacion_3
         {
             this.Close();
         }
+
+        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void frmMarcas_Load(object sender, EventArgs e)
+        {
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            dgvArticulos.DataSource = negocio.listar();
+        }
     }
 }

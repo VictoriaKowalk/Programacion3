@@ -8,11 +8,11 @@ namespace Programacion_3
 {
     internal class Marca
     {
-        public int _idMarca { get; set; }
-        public string _nombreMarca { get; set; }
+        public int IDMarca { get; set; }
+        public string Nombre { get; set; }
         public override string ToString()
         {
-            return _nombreMarca;
+            return Nombre;
         }
     }
 }

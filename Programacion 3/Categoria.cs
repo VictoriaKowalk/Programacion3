@@ -8,11 +8,11 @@ namespace Programacion_3
 {
     internal class Categoria
     {
-        public int _idCategoria { get; set; }
-        public string _nombreCategoria { get; set; }
+        public int IDCategoria { get; set; }
+        public string Nombre { get; set; }
         public override string ToString()
         {
-            return _nombreCategoria;
+            return Nombre;
         }
 
     }
