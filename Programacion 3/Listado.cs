@@ -27,9 +27,9 @@ namespace Programacion_3
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.listar();
             dgvArticulos.DataSource = listaArticulos;
-             dgvArticulos.Columns["UrlImagen"].Visible = false;
+            dgvArticulos.Columns["UrlImagen"].Visible = false;
             dgvArticulos.Columns["IDArticulo"].Visible = false;
-            pbxArticulo.Load(listaArticulos[0].UrlImagen);
+            CargarImagen(listaArticulos[0].UrlImagen); // Es necesario para asegurarnos que el primer item tenga una imagen apropiada
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -46,5 +46,24 @@ namespace Programacion_3
             this.Close();
         }
 
+        private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
+        {
+            // Recupera el objeto de la fila actual
+            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            // Pasa como parámetro la URL a la función CargarImagen
+            CargarImagen(seleccionado.UrlImagen);
+        }
+        private void CargarImagen(string imagen)
+        {
+            // Usa la función Load de la PictureBox para mostrar la imagen de la URL dada
+            try
+            {
+                pbxArticulo.Load(imagen);
+            }
+            catch (Exception)
+            {
+                pbxArticulo.Load("https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=");
+            }
+        }
     }
 }
