@@ -36,7 +36,6 @@
             this.administrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoríasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.lboArticulos = new System.Windows.Forms.ListBox();
             this.lblFiltrarArticulo = new System.Windows.Forms.Label();
             this.lblFiltrarMarca = new System.Windows.Forms.Label();
             this.txtArticulo = new System.Windows.Forms.TextBox();
@@ -47,7 +46,11 @@
             this.lblFiltrarCategoria = new System.Windows.Forms.Label();
             this.cboCategoria = new System.Windows.Forms.ComboBox();
             this.btnAplicarFiltro = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -60,7 +63,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(425, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(825, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -117,14 +120,6 @@
             this.administrarToolStripMenuItem1.Size = new System.Drawing.Size(136, 22);
             this.administrarToolStripMenuItem1.Text = "Administrar";
             this.administrarToolStripMenuItem1.Click += new System.EventHandler(this.administrarToolStripMenuItem1_Click);
-            // 
-            // lboArticulos
-            // 
-            this.lboArticulos.FormattingEnabled = true;
-            this.lboArticulos.Location = new System.Drawing.Point(286, 60);
-            this.lboArticulos.Name = "lboArticulos";
-            this.lboArticulos.Size = new System.Drawing.Size(120, 225);
-            this.lboArticulos.TabIndex = 1;
             // 
             // lblFiltrarArticulo
             // 
@@ -223,11 +218,29 @@
             this.btnAplicarFiltro.Text = "Aplicar filtros";
             this.btnAplicarFiltro.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(274, 62);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 227);
+            this.dataGridView1.TabIndex = 12;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(560, 62);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(253, 227);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 310);
+            this.ClientSize = new System.Drawing.Size(825, 310);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnAplicarFiltro);
             this.Controls.Add(this.cboCategoria);
             this.Controls.Add(this.lblFiltrarCategoria);
@@ -238,14 +251,16 @@
             this.Controls.Add(this.txtArticulo);
             this.Controls.Add(this.lblFiltrarMarca);
             this.Controls.Add(this.lblFiltrarArticulo);
-            this.Controls.Add(this.lboArticulos);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmPrincipal";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BusinessMaster 2024";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -257,7 +272,6 @@
         private System.Windows.Forms.ToolStripMenuItem artículosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarArtículosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarArtículosToolStripMenuItem;
-        private System.Windows.Forms.ListBox lboArticulos;
         private System.Windows.Forms.Label lblFiltrarArticulo;
         private System.Windows.Forms.Label lblFiltrarMarca;
         private System.Windows.Forms.TextBox txtArticulo;
@@ -272,6 +286,8 @@
         private System.Windows.Forms.Label lblFiltrarCategoria;
         private System.Windows.Forms.ComboBox cboCategoria;
         private System.Windows.Forms.Button btnAplicarFiltro;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
