@@ -8,11 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Negocio;
+using Dominio;
 
 namespace TrabajoPractico
 {
     public partial class frmPrincipal : Form
     {
+        private List<Dominio.Articulo> listaArticulos;
         public frmPrincipal()
         {
             InitializeComponent();
@@ -87,21 +90,37 @@ namespace TrabajoPractico
         {
 
         }
-
-        private void frmPrincipal_Load(object sender, EventArgs e)
+        private void CargarImagen(string imagen)
         {
-            CategoriasNegocio categorias = new CategoriasNegocio();
-            MarcasNegocio marcas = new MarcasNegocio();
-
+            // Usa la función Load de la PictureBox para mostrar la imagen de la URL dada
             try
             {
-                cboCategoria.DataSource = categorias.listar();
-                cboMarcas.DataSource = marcas.listar();
+                pbxPrincipal.Load(imagen);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show(ex.ToString());
+                pbxPrincipal.Load("https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=");
             }
+        }
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            listaArticulos = negocio.listar();
+            dgvPrincipal.DataSource = listaArticulos;
+            dgvPrincipal.Columns["UrlImagen"].Visible = false;
+            dgvPrincipal.Columns["IDArticulo"].Visible = false;
+            CargarImagen(listaArticulos[0].UrlImagen);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvPrincipal_SelectionChanged(object sender, EventArgs e)
+        {
+            Articulo selecionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+           CargarImagen(selecionado.UrlImagen);
         }
     }
 }

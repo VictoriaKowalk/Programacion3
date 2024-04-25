@@ -46,11 +46,11 @@
             this.lblFiltrarCategoria = new System.Windows.Forms.Label();
             this.cboCategoria = new System.Windows.Forms.ComboBox();
             this.btnAplicarFiltro = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dgvPrincipal = new System.Windows.Forms.DataGridView();
+            this.pbxPrincipal = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxPrincipal)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -221,30 +221,32 @@
             this.btnAplicarFiltro.Text = "Aplicar filtros";
             this.btnAplicarFiltro.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvPrincipal
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(274, 62);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 227);
-            this.dataGridView1.TabIndex = 12;
+            this.dgvPrincipal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPrincipal.Location = new System.Drawing.Point(274, 62);
+            this.dgvPrincipal.Name = "dgvPrincipal";
+            this.dgvPrincipal.RowHeadersWidth = 51;
+            this.dgvPrincipal.Size = new System.Drawing.Size(240, 227);
+            this.dgvPrincipal.TabIndex = 12;
+            this.dgvPrincipal.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvPrincipal.SelectionChanged += new System.EventHandler(this.dgvPrincipal_SelectionChanged);
             // 
-            // pictureBox1
+            // pbxPrincipal
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(560, 62);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(253, 227);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
+            this.pbxPrincipal.Location = new System.Drawing.Point(560, 62);
+            this.pbxPrincipal.Name = "pbxPrincipal";
+            this.pbxPrincipal.Size = new System.Drawing.Size(253, 227);
+            this.pbxPrincipal.TabIndex = 13;
+            this.pbxPrincipal.TabStop = false;
             // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(825, 310);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pbxPrincipal);
+            this.Controls.Add(this.dgvPrincipal);
             this.Controls.Add(this.btnAplicarFiltro);
             this.Controls.Add(this.cboCategoria);
             this.Controls.Add(this.lblFiltrarCategoria);
@@ -264,8 +266,8 @@
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxPrincipal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,8 +293,8 @@
         private System.Windows.Forms.Label lblFiltrarCategoria;
         private System.Windows.Forms.ComboBox cboCategoria;
         private System.Windows.Forms.Button btnAplicarFiltro;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dgvPrincipal;
+        private System.Windows.Forms.PictureBox pbxPrincipal;
     }
 }
 

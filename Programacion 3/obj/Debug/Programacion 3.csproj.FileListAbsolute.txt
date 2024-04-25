@@ -28,3 +28,24 @@ C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacio
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\TrabajoPractico.frmPrincipal.resources
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmListado.resources
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmCategorias.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Programacion 3.exe.config
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Programacion 3.exe
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Programacion 3.pdb
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.csproj.AssemblyReference.cache
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.frmAgregar.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.frmCategorias.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.frmMarcas.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.frmModificar.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\TrabajoPractico.frmPrincipal.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.frmListado.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.Properties.Resources.resources
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.csproj.GenerateResource.cache
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.exe
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.pdb
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Dominio.dll
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Dominio.pdb
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.csproj.CopyComplete
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Negocio.dll
+C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Negocio.pdb

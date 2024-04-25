@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using Dominio;
 
-namespace Programacion_3
+namespace Negocio
 {
-    internal class ArticulosNegocio
+    public class ArticulosNegocio
     {
         public List<Articulo> listar()
         {

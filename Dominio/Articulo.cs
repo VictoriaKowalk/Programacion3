@@ -6,11 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Programacion_3
+
+namespace Dominio
 {
-    internal class Articulo
+    public  class Articulo
     {
-        public static Image Imagen { get; internal set; }
+        public static object dgvPrincipal;
+
+        //public static Image Imagen { get; internal set; }
         public int IDArticulo { get; set; }
         [DisplayName("Codigo ")]
         public string Codigo { get; set; }
