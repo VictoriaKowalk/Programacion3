@@ -20,12 +20,6 @@ namespace TrabajoPractico
             Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
-
-            cboMarcas.Items.Add("Apple");
-            cboMarcas.Items.Add("Huawei");
-            cboMarcas.Items.Add("Motorola");
-            cboMarcas.Items.Add("Samsung");
-            cboMarcas.Items.Add("Sony");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -87,6 +81,27 @@ namespace TrabajoPractico
         {
             frmCategorias ventana = new frmCategorias();
             ventana.ShowDialog();
+        }
+
+        private void cboCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            CategoriasNegocio categorias = new CategoriasNegocio();
+            MarcasNegocio marcas = new MarcasNegocio();
+
+            try
+            {
+                cboCategoria.DataSource = categorias.listar();
+                cboMarcas.DataSource = marcas.listar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

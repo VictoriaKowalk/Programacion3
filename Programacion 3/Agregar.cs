@@ -31,10 +31,10 @@ namespace Programacion_3
                 articulo.Nombre = txtNombre.Text;
                 articulo.Codigo= txtCodigo.Text;
                 articulo.Descripcion = txtDescripcion.Text;
-                //articulo.Marca=cboMarca.Text;   
-                //articulo.Categoria = cboCategoria.Text;
+                articulo.Marca=(Marca)cboMarca.SelectedItem;   
+                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
                 articulo.Precio=int.Parse(txtPrecio.Text);
-                articulo.UrlImagen= txtImagen.Text;
+                articulo.UrlImagen=txtImagen.Text;
                 negocio.agregar(articulo);
                 MessageBox.Show("AGREGADO CORRECTAMENTE");
                 Close();
@@ -60,6 +60,26 @@ namespace Programacion_3
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void cboMarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmAgregar_Load(object sender, EventArgs e)
+        {
+            MarcasNegocio marcaNegocio = new MarcasNegocio();
+            CategoriasNegocio categoriaNegocio = new CategoriasNegocio();
+            try
+            {
+                cboMarca.DataSource = marcaNegocio.listar();
+                cboCategoria.DataSource = categoriaNegocio.listar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

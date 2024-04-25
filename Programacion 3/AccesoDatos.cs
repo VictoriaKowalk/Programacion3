@@ -20,7 +20,10 @@ namespace Programacion_3
 
         public AccesoDatos()
         {
-            conexion= new SqlConnection("\"server=(LocalDb)\\\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true\";");
+            string conexionLucas = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
+            string conexionMathias = "Data Source=DESKTOP-LPCCPED\\SQLEXPRESS;Initial Catalog=CATALOGO_P3_DB;Integrated Security=True";
+            string conexionVicky = "??";
+            conexion = new SqlConnection(conexionLucas);
             comando = new SqlCommand();
         }
         public void setConsulta(string consulta)

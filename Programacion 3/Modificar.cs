@@ -25,5 +25,21 @@ namespace Programacion_3
         {
             this.Close();
         }
+
+        private void frmModificar_Load(object sender, EventArgs e)
+        {
+            CategoriasNegocio categorias = new CategoriasNegocio();
+            MarcasNegocio marcas = new MarcasNegocio();
+
+            try
+            {
+                cboCategoria.DataSource = categorias.listar();
+                cboMarca.DataSource = marcas.listar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }
