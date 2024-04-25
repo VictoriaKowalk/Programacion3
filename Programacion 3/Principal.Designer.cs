@@ -237,6 +237,7 @@
             this.pbxPrincipal.Location = new System.Drawing.Point(560, 62);
             this.pbxPrincipal.Name = "pbxPrincipal";
             this.pbxPrincipal.Size = new System.Drawing.Size(253, 227);
+            this.pbxPrincipal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxPrincipal.TabIndex = 13;
             this.pbxPrincipal.TabStop = false;
             // 

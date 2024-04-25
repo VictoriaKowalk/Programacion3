@@ -49,3 +49,9 @@ C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Dominio.pdb
 C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion 3.csproj.CopyComplete
 C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Negocio.dll
 C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\bin\Debug\Negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\bin\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\bin\Debug\Negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\bin\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\bin\Debug\Negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programa.7564972C.Up2Date
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarMarca.resources

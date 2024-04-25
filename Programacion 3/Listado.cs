@@ -75,5 +75,10 @@ namespace Programacion_3
             frmModificar ventana = new frmModificar();
             ventana.Show();
         }
+
+        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

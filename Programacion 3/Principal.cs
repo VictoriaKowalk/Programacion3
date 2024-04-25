@@ -110,6 +110,18 @@ namespace TrabajoPractico
             dgvPrincipal.Columns["UrlImagen"].Visible = false;
             dgvPrincipal.Columns["IDArticulo"].Visible = false;
             CargarImagen(listaArticulos[0].UrlImagen);
+
+            MarcasNegocio marcaNegocio = new MarcasNegocio();
+            CategoriasNegocio categoriaNegocio = new CategoriasNegocio();
+            try
+            {
+                cboMarcas.DataSource = marcaNegocio.listar();
+                cboCategoria.DataSource = categoriaNegocio.listar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

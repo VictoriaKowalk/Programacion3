@@ -12,10 +12,9 @@ using System.Windows.Forms;
 
 namespace Programacion_3
 {
-    public partial class frmMarcas : Form
+    public partial class AgregarMarca : Form
     {
-        private List<Marca> listaMarcas;
-        public frmMarcas()
+        public AgregarMarca()
         {
             InitializeComponent();
             //Fondo para la app
@@ -24,21 +23,9 @@ namespace Programacion_3
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void AgregarMarca_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void frmMarcas_Load(object sender, EventArgs e)
-        {
-            MarcasNegocio marcas = new MarcasNegocio();
-            listaMarcas = marcas.listar();
-            dgvMarcas.DataSource = listaMarcas;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -51,15 +38,28 @@ namespace Programacion_3
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            AgregarMarca agregarMarca = new AgregarMarca();
-            agregarMarca.ShowDialog();
+            Marca marca = new Marca();
+            MarcasNegocio negocio = new MarcasNegocio();
+
+            try
+            {
+                marca.Nombre = txtNombreMarca.Text;
+                negocio.agregar(marca);
+                MessageBox.Show("AGREGADO CORRECTAMENTE");
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+
+            }
         }
     }
 }

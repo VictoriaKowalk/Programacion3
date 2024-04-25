@@ -20,10 +20,9 @@ namespace Negocio
 
         public AccesoDatos()
         {
-            //string conexionLucas = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
+            string conexionLV = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
             string conexionMathias = "Data Source=DESKTOP-LPCCPED\\SQLEXPRESS;Initial Catalog=CATALOGO_P3_DB;Integrated Security=True";
-            //string conexionVicky = "??";
-            conexion = new SqlConnection(conexionMathias);
+            conexion = new SqlConnection(conexionLV);
             comando = new SqlCommand();
         }
         public void setConsulta(string consulta)
