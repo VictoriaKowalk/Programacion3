@@ -25,7 +25,7 @@ namespace Programacion_3
 
                 conexion.Open();
                 lector = comando.ExecuteReader();
-                
+
                 while (lector.Read())
                 {
                     Articulo aux = new Articulo();
@@ -61,5 +61,27 @@ namespace Programacion_3
             }
 
         }
+        public void agregar(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setConsulta(" insert into ARTICULOS(Codigo,Nombre,Descripcion,IdMarca, IdCategoria, Precio) Values ('" + nuevo.Codigo + "','" + nuevo.Nombre + "' ,'" + nuevo.Descripcion + "'," + nuevo.Marca + "," + nuevo.Categoria + "," + nuevo.Precio + ")\r\n");
+
+                datos.ejecutarAccion();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }
+

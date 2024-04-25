@@ -56,37 +56,37 @@ namespace TrabajoPractico
         private void listarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmListado ventana = new frmListado();
-            ventana.Show();
+            ventana.ShowDialog();
         }
 
         private void agregarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAgregar ventana = new frmAgregar();
-            ventana.Show();
+            ventana.ShowDialog();
         }
 
         private void modificarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmModificar ventana = new frmModificar();
-            ventana.Show();
+            ventana.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             frmModificar ventana = new frmModificar();
-            ventana.Show();
+            ventana.ShowDialog();
         }
 
         private void administrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmMarcas ventana = new frmMarcas();
-            ventana.Show();
+            ventana.ShowDialog();
         }
 
         private void administrarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             frmCategorias ventana = new frmCategorias();
-            ventana.Show();
+            ventana.ShowDialog();
         }
     }
 }

@@ -36,15 +36,16 @@
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblImagen = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtImagen = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.btnAgregado = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.cboMarca = new System.Windows.Forms.ComboBox();
             this.cboCategoria = new System.Windows.Forms.ComboBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblAgregar
@@ -55,7 +56,7 @@
             this.lblAgregar.Location = new System.Drawing.Point(31, 32);
             this.lblAgregar.Name = "lblAgregar";
             this.lblAgregar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblAgregar.Size = new System.Drawing.Size(289, 39);
+            this.lblAgregar.Size = new System.Drawing.Size(283, 38);
             this.lblAgregar.TabIndex = 0;
             this.lblAgregar.Text = "Agregar artículo";
             this.lblAgregar.Click += new System.EventHandler(this.lblAgregarArt_Click);
@@ -137,54 +138,54 @@
             this.lblImagen.TabIndex = 7;
             this.lblImagen.Text = "Imagen:";
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(143, 94);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 22);
-            this.textBox1.TabIndex = 8;
+            this.txtNombre.Location = new System.Drawing.Point(143, 94);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(239, 22);
+            this.txtNombre.TabIndex = 8;
             // 
-            // textBox2
+            // txtImagen
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 276);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 22);
-            this.textBox2.TabIndex = 9;
+            this.txtImagen.Location = new System.Drawing.Point(143, 276);
+            this.txtImagen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtImagen.Name = "txtImagen";
+            this.txtImagen.Size = new System.Drawing.Size(239, 22);
+            this.txtImagen.TabIndex = 9;
             // 
-            // textBox3
+            // txtPrecio
             // 
-            this.textBox3.Location = new System.Drawing.Point(143, 245);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 22);
-            this.textBox3.TabIndex = 10;
+            this.txtPrecio.Location = new System.Drawing.Point(143, 245);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(239, 22);
+            this.txtPrecio.TabIndex = 10;
             // 
-            // textBox6
+            // txtDescripcion
             // 
-            this.textBox6.Location = new System.Drawing.Point(143, 154);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(239, 22);
-            this.textBox6.TabIndex = 13;
+            this.txtDescripcion.Location = new System.Drawing.Point(143, 154);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(239, 22);
+            this.txtDescripcion.TabIndex = 13;
             // 
-            // textBox7
+            // txtCodigo
             // 
-            this.textBox7.Location = new System.Drawing.Point(143, 122);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(239, 22);
-            this.textBox7.TabIndex = 14;
+            this.txtCodigo.Location = new System.Drawing.Point(143, 122);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(239, 22);
+            this.txtCodigo.TabIndex = 14;
             // 
             // btnAgregado
             // 
-            this.btnAgregado.Location = new System.Drawing.Point(266, 314);
+            this.btnAgregado.Location = new System.Drawing.Point(235, 313);
             this.btnAgregado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregado.Name = "btnAgregado";
-            this.btnAgregado.Size = new System.Drawing.Size(116, 32);
+            this.btnAgregado.Size = new System.Drawing.Size(72, 32);
             this.btnAgregado.TabIndex = 15;
-            this.btnAgregado.Text = "Agregar artículo";
+            this.btnAgregado.Text = "Agregar ";
             this.btnAgregado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregado.UseVisualStyleBackColor = true;
             this.btnAgregado.Click += new System.EventHandler(this.btnAgregado_Click);
@@ -204,7 +205,7 @@
             // 
             this.cboMarca.FormattingEnabled = true;
             this.cboMarca.Location = new System.Drawing.Point(143, 186);
-            this.cboMarca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboMarca.Margin = new System.Windows.Forms.Padding(4);
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(239, 24);
             this.cboMarca.TabIndex = 17;
@@ -213,25 +214,38 @@
             // 
             this.cboCategoria.FormattingEnabled = true;
             this.cboCategoria.Location = new System.Drawing.Point(143, 217);
-            this.cboCategoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboCategoria.Margin = new System.Windows.Forms.Padding(4);
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(239, 24);
             this.cboCategoria.TabIndex = 18;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(313, 313);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(72, 32);
+            this.btnCancelar.TabIndex = 19;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // frmAgregar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(567, 382);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.cboCategoria);
             this.Controls.Add(this.cboMarca);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnAgregado);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.txtDescripcion);
+            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.txtImagen);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblImagen);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.lblCategoria);
@@ -259,14 +273,15 @@
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.Label lblImagen;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtImagen;
+        private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.TextBox txtDescripcion;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Button btnAgregado;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.ComboBox cboMarca;
         private System.Windows.Forms.ComboBox cboCategoria;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
