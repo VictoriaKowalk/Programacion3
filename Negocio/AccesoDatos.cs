@@ -68,5 +68,10 @@ namespace Negocio
                 lector.Close();
             conexion.Close();
         }
+
+        internal void setParametros(string v, string codigo)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

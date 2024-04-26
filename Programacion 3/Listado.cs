@@ -24,6 +24,7 @@ namespace Programacion_3
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
+       
         private void Form2_Load(object sender, EventArgs e)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
@@ -70,13 +71,26 @@ namespace Programacion_3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //seleciona el articulo deseado para moficicarse
             Articulo seleccionado;
             seleccionado=(Articulo)dgvArticulos.CurrentRow.DataBoundItem;
-            frmModificar ventana = new frmModificar();
-            ventana.Show();
+            //paso por parametro el articulo selecionado
+            frmModificar ventana = new frmModificar(seleccionado);
+            ventana.ShowDialog();
         }
 
         private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click_1(object sender, EventArgs e)
+        {
+            AgregarCategoria agregarCategoria = new AgregarCategoria();
+            agregarCategoria.ShowDialog();
+        }
+
+        private void pbxArticulo_Click(object sender, EventArgs e)
         {
 
         }

@@ -34,18 +34,19 @@
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
             this.dgvArticulos = new System.Windows.Forms.DataGridView();
             this.btnModificar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(72, 455);
+            this.btnEliminar.Location = new System.Drawing.Point(423, 455);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(156, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(156, 30);
             this.btnEliminar.TabIndex = 1;
-            this.btnEliminar.Text = "Eliminar artículo";
+            this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // lblCatagolo
@@ -65,7 +66,7 @@
             this.btnBuscar.Location = new System.Drawing.Point(1087, 455);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(75, 30);
             this.btnBuscar.TabIndex = 4;
             this.btnBuscar.Text = "Volver";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -80,6 +81,7 @@
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 6;
             this.pbxArticulo.TabStop = false;
+            this.pbxArticulo.Click += new System.EventHandler(this.pbxArticulo_Click);
             // 
             // dgvArticulos
             // 
@@ -98,17 +100,29 @@
             this.btnModificar.Location = new System.Drawing.Point(248, 455);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(156, 23);
+            this.btnModificar.Size = new System.Drawing.Size(156, 30);
             this.btnModificar.TabIndex = 8;
-            this.btnModificar.Text = "Modificar artículo";
+            this.btnModificar.Text = "Modificar ";
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(72, 455);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(156, 30);
+            this.btnAgregar.TabIndex = 9;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
             // 
             // frmListado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1179, 498);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.dgvArticulos);
             this.Controls.Add(this.pbxArticulo);
@@ -134,5 +148,6 @@
         private System.Windows.Forms.PictureBox pbxArticulo;
         private System.Windows.Forms.DataGridView dgvArticulos;
         private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnAgregar;
     }
 }
