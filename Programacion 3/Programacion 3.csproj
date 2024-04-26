@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Agregar.Designer.cs">
-      <DependentUpon>Agregar.cs</DependentUpon>
-    </Compile>
     <Compile Include="AgregarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +70,11 @@
     <Compile Include="Marcas.Designer.cs">
       <DependentUpon>Marcas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificar.cs">
+    <Compile Include="DatosArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificar.Designer.cs">
-      <DependentUpon>Modificar.cs</DependentUpon>
+    <Compile Include="DatosArticulos.Designer.cs">
+      <DependentUpon>DatosArticulos.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -88,17 +82,14 @@
     <Compile Include="Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Listado.cs">
+    <Compile Include="ListaArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Listado.Designer.cs">
-      <DependentUpon>Listado.cs</DependentUpon>
+    <Compile Include="ListaArticulos.Designer.cs">
+      <DependentUpon>ListaArticulos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Agregar.resx">
-      <DependentUpon>Agregar.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AgregarCategoria.resx">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,14 +102,14 @@
     <EmbeddedResource Include="Marcas.resx">
       <DependentUpon>Marcas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modificar.resx">
-      <DependentUpon>Modificar.cs</DependentUpon>
+    <EmbeddedResource Include="DatosArticulos.resx">
+      <DependentUpon>DatosArticulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Listado.resx">
-      <DependentUpon>Listado.cs</DependentUpon>
+    <EmbeddedResource Include="ListaArticulos.resx">
+      <DependentUpon>ListaArticulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

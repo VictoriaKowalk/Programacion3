@@ -12,27 +12,29 @@ using Negocio;
 
 namespace Programacion_3
 {
-    public partial class frmModificar : Form
+    public partial class frmArticulos : Form
     {
-        private Articulo articulo = null;
+        private Articulo articulo;
 
-        public frmModificar()
+        public frmArticulos()
         {
             InitializeComponent();
             //Fondo para la app
             Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
+            Text = "Nuevo Artículo";
         }
         //segundo construcctor para selecionado
-        public frmModificar(Articulo articulo)
+        public frmArticulos(Articulo articulo)
         {
             InitializeComponent();
-           /* //Fondo para la app
+            //Fondo para la app
             Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
-            this.articulo = articulo;*/
+            this.articulo = articulo;
+            Text = "Modificar Artículo";
         }
         private void CargarImagen(string imagen)
         {
@@ -60,34 +62,28 @@ namespace Programacion_3
             try
             {
                 cboCategoria.DataSource = categorias.listar();
-                //capturo el id del articulo para que en el desplegable se vea el correcto
                 cboCategoria.ValueMember = "IdCategoria";
-                cboCategoria.DisplayMember = "Descripcion";
+                cboCategoria.DisplayMember = "Nombre";
 
                 cboMarca.DataSource = marcas.listar();
                 cboMarca.ValueMember = "IdMarca";
                 cboMarca.DisplayMember = "Nombre";
 
-                // verifico que sea modificacion
+                // Si el artículo no es null, es una modificación
                 if (articulo!= null)
                 {
-                    //pregarga el articulo
+                    // Precarga el articulo
                     txtNombre.Text = articulo.Nombre;
                     txtCodigo.Text = articulo.Codigo;
                     txtDescripcion.Text = articulo.Descripcion;
 
-                    //me faltan los cbo
-                    cboCategoria.SelectedValue = articulo.Codigo;
-                    cboMarca.SelectedValue = articulo.Descripcion;
-
-
+                    // NO FUNCIONA CORRECTAMENTE
+                    cboCategoria.SelectedValue = articulo.Categoria.IDCategoria;
+                    cboMarca.SelectedValue = articulo.Marca.IDMarca;
+                    
                     txtPrecio.Text = articulo.Precio.ToString();
-                  
-
                     txtImagen.Text = articulo.UrlImagen;
                     CargarImagen(articulo.UrlImagen);
-                    MessageBox.Show("Modificado exitosamente");
-
                 }
             }
             catch (Exception ex)
@@ -101,14 +97,27 @@ namespace Programacion_3
             ArticulosNegocio negocio = new ArticulosNegocio();
             try
             {
-                articulo.IDArticulo = int.Parse(txtCodigo.Text);
+                if (articulo == null)
+                    articulo = new Articulo();
+
+                articulo.Codigo = txtCodigo.Text;
                 articulo.Descripcion = txtDescripcion.Text;
                 articulo.Nombre = txtNombre.Text;
-                articulo.Precio = int.Parse(txtPrecio.Text);
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
                 articulo.UrlImagen = txtImagen.Text;
+                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+                articulo.Marca = (Marca)cboMarca.SelectedItem;
 
-                negocio.modificar(articulo);
-                MessageBox.Show("Modificado exitosamente.");
+                if (articulo.IDArticulo != 0)
+                {
+                    negocio.modificar(articulo);
+                    MessageBox.Show("Modificado exitosamente.");
+                }
+                else
+                {
+                    negocio.agregar(articulo);
+                    MessageBox.Show("Agregado exitosamente.");
+                }
 
                 Close();
             }
@@ -117,6 +126,16 @@ namespace Programacion_3
 
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void cboMarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -16,8 +16,6 @@ C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Progra
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion 3.exe
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion 3.pdb
-C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmAgregar.resources
-C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmModificar.resources
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\TrabajoPractico.frmPrincipal.resources
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmListado.resources
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmMarcas.resources
@@ -62,3 +60,5 @@ C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacio
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarMarca.resources
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programa.7564972C.Up2Date
 C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarCategoria.resources
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarCategoria.resources
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmArticulos.resources

@@ -61,5 +61,10 @@ namespace Programacion_3
             AgregarMarca agregarMarca = new AgregarMarca();
             agregarMarca.ShowDialog();
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

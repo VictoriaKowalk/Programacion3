@@ -1,6 +1,6 @@
 ﻿namespace Programacion_3
 {
-    partial class frmModificar
+    partial class frmArticulos
     {
         /// <summary>
         /// Required designer variable.
@@ -52,7 +52,7 @@
             // btnAceptar
             // 
             this.btnAceptar.Location = new System.Drawing.Point(216, 248);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(71, 26);
             this.btnAceptar.TabIndex = 31;
@@ -64,7 +64,7 @@
             // txtCodigo
             // 
             this.txtCodigo.Location = new System.Drawing.Point(107, 99);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(180, 20);
             this.txtCodigo.TabIndex = 30;
@@ -72,7 +72,7 @@
             // txtDescripcion
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(107, 125);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(180, 20);
             this.txtDescripcion.TabIndex = 29;
@@ -80,7 +80,7 @@
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(107, 199);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(180, 20);
             this.txtPrecio.TabIndex = 26;
@@ -88,7 +88,7 @@
             // txtImagen
             // 
             this.txtImagen.Location = new System.Drawing.Point(107, 224);
-            this.txtImagen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtImagen.Margin = new System.Windows.Forms.Padding(2);
             this.txtImagen.Name = "txtImagen";
             this.txtImagen.Size = new System.Drawing.Size(180, 20);
             this.txtImagen.TabIndex = 25;
@@ -96,7 +96,7 @@
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(107, 76);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(180, 20);
             this.txtNombre.TabIndex = 24;
@@ -108,7 +108,7 @@
             this.lblImagen.Location = new System.Drawing.Point(30, 227);
             this.lblImagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblImagen.Name = "lblImagen";
-            this.lblImagen.Size = new System.Drawing.Size(52, 15);
+            this.lblImagen.Size = new System.Drawing.Size(45, 13);
             this.lblImagen.TabIndex = 23;
             this.lblImagen.Text = "Imagen:";
             // 
@@ -119,7 +119,7 @@
             this.lblMarca.Location = new System.Drawing.Point(30, 154);
             this.lblMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(45, 15);
+            this.lblMarca.Size = new System.Drawing.Size(40, 13);
             this.lblMarca.TabIndex = 22;
             this.lblMarca.Text = "Marca:";
             // 
@@ -130,7 +130,7 @@
             this.lblCategoria.Location = new System.Drawing.Point(30, 179);
             this.lblCategoria.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(63, 15);
+            this.lblCategoria.Size = new System.Drawing.Size(57, 13);
             this.lblCategoria.TabIndex = 21;
             this.lblCategoria.Text = "Categoría:";
             // 
@@ -141,7 +141,7 @@
             this.lblPrecio.Location = new System.Drawing.Point(30, 202);
             this.lblPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(45, 15);
+            this.lblPrecio.Size = new System.Drawing.Size(40, 13);
             this.lblPrecio.TabIndex = 20;
             this.lblPrecio.Text = "Precio:";
             // 
@@ -152,7 +152,7 @@
             this.lblCodArt.Location = new System.Drawing.Point(30, 102);
             this.lblCodArt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCodArt.Name = "lblCodArt";
-            this.lblCodArt.Size = new System.Drawing.Size(49, 15);
+            this.lblCodArt.Size = new System.Drawing.Size(43, 13);
             this.lblCodArt.TabIndex = 19;
             this.lblCodArt.Text = "Código:";
             // 
@@ -163,7 +163,7 @@
             this.lblDescripcion.Location = new System.Drawing.Point(30, 128);
             this.lblDescripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(75, 15);
+            this.lblDescripcion.Size = new System.Drawing.Size(66, 13);
             this.lblDescripcion.TabIndex = 18;
             this.lblDescripcion.Text = "Descripción:";
             // 
@@ -174,7 +174,7 @@
             this.lblNombreArt.Location = new System.Drawing.Point(30, 79);
             this.lblNombreArt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombreArt.Name = "lblNombreArt";
-            this.lblNombreArt.Size = new System.Drawing.Size(55, 15);
+            this.lblNombreArt.Size = new System.Drawing.Size(47, 13);
             this.lblNombreArt.TabIndex = 17;
             this.lblNombreArt.Text = "Nombre:";
             // 
@@ -188,14 +188,14 @@
             this.lblModificar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblModificar.Name = "lblModificar";
             this.lblModificar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblModificar.Size = new System.Drawing.Size(263, 38);
+            this.lblModificar.Size = new System.Drawing.Size(184, 31);
             this.lblModificar.TabIndex = 16;
-            this.lblModificar.Text = "Modificar artículo";
+            this.lblModificar.Text = "Datos Artículo";
             // 
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(358, 265);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(56, 34);
             this.btnBuscar.TabIndex = 32;
@@ -211,6 +211,7 @@
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(180, 21);
             this.cboCategoria.TabIndex = 34;
+            this.cboCategoria.SelectedIndexChanged += new System.EventHandler(this.cboCategoria_SelectedIndexChanged);
             // 
             // cboMarca
             // 
@@ -220,18 +221,19 @@
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(180, 21);
             this.cboMarca.TabIndex = 33;
+            this.cboMarca.SelectedIndexChanged += new System.EventHandler(this.cboMarca_SelectedIndexChanged);
             // 
             // pbxArticulo
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(293, 90);
-            this.pbxArticulo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbxArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.pbxArticulo.Name = "pbxArticulo";
             this.pbxArticulo.Size = new System.Drawing.Size(121, 139);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 35;
             this.pbxArticulo.TabStop = false;
             // 
-            // frmModificar
+            // frmArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -254,9 +256,9 @@
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.lblNombreArt);
             this.Controls.Add(this.lblModificar);
-            this.Name = "frmModificar";
+            this.Name = "frmArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modificar";
+            this.Text = "Artículos";
             this.Load += new System.EventHandler(this.frmModificar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
             this.ResumeLayout(false);

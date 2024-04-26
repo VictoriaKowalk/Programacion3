@@ -58,19 +58,19 @@ namespace TrabajoPractico
 
         private void agregarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAgregar ventana = new frmAgregar();
+            frmArticulos ventana = new frmArticulos();
             ventana.ShowDialog();
         }
 
         private void modificarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmModificar ventana = new frmModificar();
+            frmArticulos ventana = new frmArticulos();
             ventana.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmModificar ventana = new frmModificar();
+            frmArticulos ventana = new frmArticulos();
             ventana.ShowDialog();
         }
 
@@ -133,6 +133,12 @@ namespace TrabajoPractico
         {
             Articulo selecionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
            CargarImagen(selecionado.UrlImagen);
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmArticulos ventana = new frmArticulos();
+            ventana.ShowDialog();
         }
     }
 }

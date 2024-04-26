@@ -36,7 +36,7 @@ namespace Programacion_3
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            frmAgregar ventana = new frmAgregar();
+            frmArticulos ventana = new frmArticulos();
             ventana.Show();
         }
 
@@ -75,7 +75,7 @@ namespace Programacion_3
             Articulo seleccionado;
             seleccionado=(Articulo)dgvArticulos.CurrentRow.DataBoundItem;
             //paso por parametro el articulo selecionado
-            frmModificar ventana = new frmModificar(seleccionado);
+            frmArticulos ventana = new frmArticulos(seleccionado);
             ventana.ShowDialog();
         }
 
@@ -86,8 +86,8 @@ namespace Programacion_3
 
         private void btnAgregar_Click_1(object sender, EventArgs e)
         {
-            AgregarCategoria agregarCategoria = new AgregarCategoria();
-            agregarCategoria.ShowDialog();
+            frmArticulos ventana = new frmArticulos();
+            ventana.ShowDialog();
         }
 
         private void pbxArticulo_Click(object sender, EventArgs e)

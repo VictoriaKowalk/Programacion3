@@ -17,14 +17,14 @@ namespace Negocio
 
             try
             {
-                datos.setConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria,\r\nI.ImagenUrl, Precio,M.Id,C.Id \r\nFROM ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND I.IdArticulo=A.Id");
+                datos.setConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, I.ImagenUrl, Precio,M.Id AS IDMarca,C.Id  AS IDCategoria FROM ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND I.IdArticulo=A.Id");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
                    
-                    aux.IDArticulo = datos.Lector.GetInt32(0);
+                    aux.IDArticulo = (int)datos.Lector["Id"];
                     aux.Codigo = (string)datos.Lector["Codigo"];
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
@@ -34,11 +34,11 @@ namespace Negocio
 
                     aux.Marca = new Marca();
                     aux.Marca.Nombre = (string)datos.Lector["Marca"];
-                    aux.Marca.IDMarca = (int)datos.Lector["Id"];
+                    aux.Marca.IDMarca = (int)datos.Lector["IDMarca"];
 
                     aux.Categoria = new Categoria();
                     aux.Categoria.Nombre = (string)datos.Lector["Categoria"];
-                    aux.Categoria.IDCategoria = (int)datos.Lector["Id"];
+                    aux.Categoria.IDCategoria = (int)datos.Lector["IDCategoria"];
 
                     aux.Precio = (decimal)datos.Lector["Precio"];
 
@@ -83,16 +83,20 @@ namespace Negocio
 
             try
             {
-                datos.setConsulta("\r\nupdate ARTICULOS set Codigo = @codigo, Nombre = @nombre, Descripcion = @descripcion, IdCategoria = @idCategoria, IdMarca = @idMarca where Id = @id");
+                datos.setConsulta("update ARTICULOS set Codigo = @codigo, Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idMarca, IdCategoria = @idCategoria, Precio = @precio where Id = @id");
+                datos.setParametros("@id", articulo.IDArticulo);
                 datos.setParametros("@codigo", articulo.Codigo);
                 datos.setParametros("@nombre", articulo.Nombre);
                 datos.setParametros("@descripcion", articulo.Descripcion);
-               
+                datos.setParametros("@idMarca", articulo.Marca.IDMarca);
+                datos.setParametros("@idCategoria", articulo.Categoria.IDCategoria);
+                datos.setParametros("@precio", articulo.Precio);
+                datos.ejecutarAccion();
             }
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
         }
     }

@@ -69,9 +69,9 @@ namespace Negocio
             conexion.Close();
         }
 
-        internal void setParametros(string v, string codigo)
+        public void setParametros(string clave, object valor)
         {
-            throw new NotImplementedException();
+            comando.Parameters.AddWithValue(clave, valor);
         }
     }
 }
