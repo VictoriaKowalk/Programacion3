@@ -38,25 +38,28 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombre.Location = new System.Drawing.Point(12, 36);
+            this.lblNombre.Location = new System.Drawing.Point(16, 44);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(94, 13);
+            this.lblNombre.Size = new System.Drawing.Size(119, 16);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre de marca:";
             this.lblNombre.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtNombreMarca
             // 
-            this.txtNombreMarca.Location = new System.Drawing.Point(112, 33);
+            this.txtNombreMarca.Location = new System.Drawing.Point(149, 41);
+            this.txtNombreMarca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombreMarca.Name = "txtNombreMarca";
-            this.txtNombreMarca.Size = new System.Drawing.Size(199, 20);
+            this.txtNombreMarca.Size = new System.Drawing.Size(264, 22);
             this.txtNombreMarca.TabIndex = 2;
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(243, 122);
+            this.btnVolver.Location = new System.Drawing.Point(324, 150);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.Size = new System.Drawing.Size(100, 28);
             this.btnVolver.TabIndex = 4;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -64,9 +67,10 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(112, 59);
+            this.btnAgregar.Location = new System.Drawing.Point(149, 73);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(100, 28);
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -74,14 +78,16 @@
             // 
             // AgregarMarca
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 157);
+            this.ClientSize = new System.Drawing.Size(440, 193);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.txtNombreMarca);
             this.Controls.Add(this.lblNombre);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AgregarMarca";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarMarca";
             this.Load += new System.EventHandler(this.AgregarMarca_Load);
             this.ResumeLayout(false);

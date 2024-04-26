@@ -55,3 +55,10 @@ C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\bin\Debug\Domini
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\bin\Debug\Negocio.pdb
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programa.7564972C.Up2Date
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarMarca.resources
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\bin\Debug\Dominio.dll
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\bin\Debug\Negocio.dll
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\bin\Debug\Dominio.pdb
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\bin\Debug\Negocio.pdb
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarMarca.resources
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programa.7564972C.Up2Date
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarCategoria.resources
