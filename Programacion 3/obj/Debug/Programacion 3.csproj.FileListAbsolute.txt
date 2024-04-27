@@ -61,3 +61,24 @@ C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Progra
 C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.AgregarCategoria.resources
 C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.AgregarMarca.resources
 C:\Users\Mathi\Desktop\Programacion3-main\Programacion 3\obj\Debug\Programacion_3.frmArticulos.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Programacion 3.exe.config
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Programacion 3.exe
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Programacion 3.pdb
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Dominio.dll
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Negocio.dll
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Dominio.pdb
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\bin\Debug\Negocio.pdb
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.AssemblyReference.cache
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarCategoria.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarMarca.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmCategorias.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmMarcas.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmArticulos.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\TrabajoPractico.frmPrincipal.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.Properties.Resources.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.GenerateResource.cache
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.CopyComplete
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.exe
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.pdb

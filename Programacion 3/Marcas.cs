@@ -79,8 +79,15 @@ namespace Programacion_3
                     DialogResult respuesta = MessageBox.Show("¿Eliminar el registro " + seleccionado.Nombre + "?", "Eliminar marca", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                     if (respuesta == DialogResult.Yes)
                     {
-                        negocio.eliminar(seleccionado.IDMarca);
-                        MessageBox.Show("Se ha eliminado la marca.");
+                        if (negocio.TieneProductosAsociados(seleccionado) != false)
+                        {
+                            MessageBox.Show("No se puede borrar esta marca, tiene un producto asociado");
+                        }
+                        else
+                        {
+                            negocio.eliminar(seleccionado.IDMarca);
+                            MessageBox.Show("Se ha eliminado la marca.");
+                        }
                         //cargar();
                     }
                 }
