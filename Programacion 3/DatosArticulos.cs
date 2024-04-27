@@ -82,8 +82,8 @@ namespace Programacion_3
                     cboMarca.SelectedValue = articulo.Marca.IDMarca;
                     
                     txtPrecio.Text = articulo.Precio.ToString();
-                    txtImagen.Text = articulo.UrlImagen;
-                    CargarImagen(articulo.UrlImagen);
+                    txtImagen.Text = articulo.Imagenes.ImagenUrl.ToString();
+                    CargarImagen(articulo.Imagenes.ImagenUrl);
                 }
             }
             catch (Exception ex)
@@ -93,6 +93,11 @@ namespace Programacion_3
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            btnAceptar_Click(sender, e, txtImagen);
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e, TextBox txtImagen)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
             try
@@ -104,7 +109,11 @@ namespace Programacion_3
                 articulo.Descripcion = txtDescripcion.Text;
                 articulo.Nombre = txtNombre.Text;
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
-                articulo.UrlImagen = txtImagen.Text;
+                Imagenes imagen= new Imagenes();    
+                imagen.ImagenUrl=txtImagen.Text;
+                //articulo.Imagenes.ImagenUrl = txtImagen.Text;
+
+
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
 

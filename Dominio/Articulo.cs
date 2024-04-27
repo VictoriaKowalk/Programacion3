@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public  class Articulo
+    public class Articulo
     {
-        public static object dgvPrincipal;
+
+        public Articulo()
+        {
+            Imagenes = new Imagenes();
+        }
 
         //public static Image Imagen { get; internal set; }
         public int IDArticulo { get; set; }
@@ -23,7 +27,7 @@ namespace Dominio
         [DisplayName("Nombre")]
         public string Nombre { get; set; }
 
-        public string UrlImagen { get; set; }
+     
 
         [DisplayName("Precio")]
         public decimal Precio { get; set; }
@@ -32,6 +36,8 @@ namespace Dominio
         public Marca Marca { get; set; }
 
         [DisplayName("Categoria")]
-        public Categoria Categoria { get; set; }
+        public Categoria Categoria { get; set; } 
+
+        public Imagenes Imagenes { get; set; }
     }
 }

@@ -50,11 +50,7 @@ namespace TrabajoPractico
 
         }
 
-        private void listarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmListado ventana = new frmListado();
-            ventana.ShowDialog();
-        }
+      
 
         private void agregarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -107,9 +103,9 @@ namespace TrabajoPractico
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.listar();
             dgvPrincipal.DataSource = listaArticulos;
-            dgvPrincipal.Columns["UrlImagen"].Visible = false;
+            dgvPrincipal.Columns["Imagenes"].Visible = false;
             dgvPrincipal.Columns["IDArticulo"].Visible = false;
-            CargarImagen(listaArticulos[0].UrlImagen);
+            CargarImagen(listaArticulos[0].Imagenes.ImagenUrl);
 
             MarcasNegocio marcaNegocio = new MarcasNegocio();
             CategoriasNegocio categoriaNegocio = new CategoriasNegocio();
@@ -132,7 +128,7 @@ namespace TrabajoPractico
         private void dgvPrincipal_SelectionChanged(object sender, EventArgs e)
         {
             Articulo selecionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
-           CargarImagen(selecionado.UrlImagen);
+           CargarImagen(selecionado.Imagenes.ImagenUrl);
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
