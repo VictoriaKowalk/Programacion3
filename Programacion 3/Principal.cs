@@ -136,5 +136,47 @@ namespace TrabajoPractico
             frmArticulos ventana = new frmArticulos();
             ventana.ShowDialog();
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            if (dgvPrincipal.CurrentRow != null)
+            {
+                Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+                frmArticulos ventana = new frmArticulos(seleccionado);
+                ventana.ShowDialog();
+            }
+            else 
+            {
+                MessageBox.Show("Debe seleccionar el artículo a modificar.");
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvPrincipal.CurrentRow != null)
+            {
+                ArticulosNegocio negocio = new ArticulosNegocio();
+                Articulo seleccionado;
+                try
+                {
+                    seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+                    DialogResult respuesta = MessageBox.Show("¿Eliminar el registro " + seleccionado.Nombre + "?", "Eliminar artículo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (respuesta == DialogResult.Yes)
+                    {
+                        negocio.eliminar(seleccionado.IDArticulo);
+                        MessageBox.Show("Se ha eliminado el artículo.");
+                        //cargar();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debe seleccionar el artículo a eliminar.");
+            }
+        }
     }
 }

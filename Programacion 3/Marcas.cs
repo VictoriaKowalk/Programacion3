@@ -66,5 +66,33 @@ namespace Programacion_3
         {
 
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvMarcas.CurrentRow != null)
+            {
+                MarcasNegocio negocio = new MarcasNegocio();
+                Marca seleccionado;
+                try
+                {
+                    seleccionado = (Marca)dgvMarcas.CurrentRow.DataBoundItem;
+                    DialogResult respuesta = MessageBox.Show("¿Eliminar el registro " + seleccionado.Nombre + "?", "Eliminar marca", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (respuesta == DialogResult.Yes)
+                    {
+                        negocio.eliminar(seleccionado.IDMarca);
+                        MessageBox.Show("Se ha eliminado la marca.");
+                        //cargar();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debe seleccionar la marca a eliminar.");
+            }
+        }
     }
 }

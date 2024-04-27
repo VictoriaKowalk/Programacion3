@@ -100,6 +100,7 @@ namespace Programacion_3
         private void btnAceptar_Click(object sender, EventArgs e, TextBox txtImagen)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
+            ImagenesNegocio negocioImagenes = new ImagenesNegocio();
             try
             {
                 if (articulo == null)
@@ -109,25 +110,28 @@ namespace Programacion_3
                 articulo.Descripcion = txtDescripcion.Text;
                 articulo.Nombre = txtNombre.Text;
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
-                Imagenes imagen= new Imagenes();    
-                imagen.ImagenUrl=txtImagen.Text;
-                //articulo.Imagenes.ImagenUrl = txtImagen.Text;
+                Imagenes imagen = new Imagenes();    
+                imagen.ImagenUrl = txtImagen.Text;
+                articulo.Imagenes.ImagenUrl = txtImagen.Text;
 
 
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
 
+
                 if (articulo.IDArticulo != 0)
                 {
                     negocio.modificar(articulo);
+                    negocioImagenes.actualizarImagen(articulo);
                     MessageBox.Show("Modificado exitosamente.");
                 }
                 else
                 {
                     negocio.agregar(articulo);
+                    articulo.IDArticulo = negocio.obtenerIDArticulo();
+                    negocioImagenes.agregarImagen(articulo);
                     MessageBox.Show("Agregado exitosamente.");
                 }
-
                 Close();
             }
             catch (Exception ex)

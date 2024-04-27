@@ -44,13 +44,41 @@ namespace Programacion_3
         {
             CategoriasNegocio categoria = new CategoriasNegocio();
             listaCategoria = categoria.listar();
-            dgvMarcas.DataSource = listaCategoria;
+            dgvCategorias.DataSource = listaCategoria;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             AgregarCategoria agregarCategoria = new AgregarCategoria();
             agregarCategoria.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (dgvCategorias.CurrentRow != null)
+            {
+                CategoriasNegocio negocio = new CategoriasNegocio();
+                Categoria seleccionado;
+                try
+                {
+                    seleccionado = (Categoria)dgvCategorias.CurrentRow.DataBoundItem;
+                    DialogResult respuesta = MessageBox.Show("¿Eliminar el registro " + seleccionado.Nombre + "?", "Eliminar categoría", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (respuesta == DialogResult.Yes)
+                    {
+                        negocio.eliminar(seleccionado.IDCategoria);
+                        MessageBox.Show("Se ha eliminado la categoría.");
+                        //cargar();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debe seleccionar la categoría a eliminar.");
+            }
         }
     }
 }

@@ -41,5 +41,54 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
+
+        public void agregarImagen(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                // Insertar en IMAGENES
+                string consulta = "INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@IdArticulo, @ImagenUrl);";
+                datos.setConsulta(consulta);
+
+                // Establecer parámetros para la imagen
+                datos.setParametros("@IdArticulo", nuevo.IDArticulo);
+                datos.setParametros("@ImagenUrl", nuevo.Imagenes.ImagenUrl);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void actualizarImagen(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                // Insertar en IMAGENES
+                string consulta = "UPDATE imagenes SET ImagenUrl=@ImagenUrl WHERE IDARTICULO=@IdArticulo;";
+                datos.setConsulta(consulta);
+
+                // Establecer parámetros para la imagen
+                datos.setParametros("@IdArticulo", nuevo.IDArticulo);
+                datos.setParametros("@ImagenUrl", nuevo.Imagenes.ImagenUrl);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
     }
 }

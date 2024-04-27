@@ -45,6 +45,8 @@
             this.categoríasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPrincipal)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -55,7 +57,7 @@
             this.lblFiltrarArticulo.AutoSize = true;
             this.lblFiltrarArticulo.BackColor = System.Drawing.Color.Transparent;
             this.lblFiltrarArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFiltrarArticulo.Location = new System.Drawing.Point(10, 60);
+            this.lblFiltrarArticulo.Location = new System.Drawing.Point(23, 86);
             this.lblFiltrarArticulo.Name = "lblFiltrarArticulo";
             this.lblFiltrarArticulo.Size = new System.Drawing.Size(105, 15);
             this.lblFiltrarArticulo.TabIndex = 2;
@@ -67,7 +69,7 @@
             this.lblFiltrarMarca.AutoSize = true;
             this.lblFiltrarMarca.BackColor = System.Drawing.Color.Transparent;
             this.lblFiltrarMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFiltrarMarca.Location = new System.Drawing.Point(10, 171);
+            this.lblFiltrarMarca.Location = new System.Drawing.Point(23, 197);
             this.lblFiltrarMarca.Name = "lblFiltrarMarca";
             this.lblFiltrarMarca.Size = new System.Drawing.Size(100, 15);
             this.lblFiltrarMarca.TabIndex = 3;
@@ -75,7 +77,7 @@
             // 
             // txtArticulo
             // 
-            this.txtArticulo.Location = new System.Drawing.Point(136, 58);
+            this.txtArticulo.Location = new System.Drawing.Point(149, 84);
             this.txtArticulo.Name = "txtArticulo";
             this.txtArticulo.Size = new System.Drawing.Size(100, 20);
             this.txtArticulo.TabIndex = 4;
@@ -84,7 +86,7 @@
             // 
             this.cboMarcas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMarcas.FormattingEnabled = true;
-            this.cboMarcas.Location = new System.Drawing.Point(136, 169);
+            this.cboMarcas.Location = new System.Drawing.Point(149, 196);
             this.cboMarcas.Name = "cboMarcas";
             this.cboMarcas.Size = new System.Drawing.Size(100, 21);
             this.cboMarcas.TabIndex = 5;
@@ -92,7 +94,7 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(136, 93);
+            this.txtCodigo.Location = new System.Drawing.Point(149, 121);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 7;
@@ -103,7 +105,7 @@
             this.lblFiltrarCodigo.AutoSize = true;
             this.lblFiltrarCodigo.BackColor = System.Drawing.Color.Transparent;
             this.lblFiltrarCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFiltrarCodigo.Location = new System.Drawing.Point(10, 94);
+            this.lblFiltrarCodigo.Location = new System.Drawing.Point(23, 123);
             this.lblFiltrarCodigo.Name = "lblFiltrarCodigo";
             this.lblFiltrarCodigo.Size = new System.Drawing.Size(102, 15);
             this.lblFiltrarCodigo.TabIndex = 6;
@@ -115,7 +117,7 @@
             this.lblFiltrarCategoria.AutoSize = true;
             this.lblFiltrarCategoria.BackColor = System.Drawing.Color.Transparent;
             this.lblFiltrarCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFiltrarCategoria.Location = new System.Drawing.Point(10, 132);
+            this.lblFiltrarCategoria.Location = new System.Drawing.Point(23, 160);
             this.lblFiltrarCategoria.Name = "lblFiltrarCategoria";
             this.lblFiltrarCategoria.Size = new System.Drawing.Size(116, 15);
             this.lblFiltrarCategoria.TabIndex = 9;
@@ -125,7 +127,7 @@
             // 
             this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FormattingEnabled = true;
-            this.cboCategoria.Location = new System.Drawing.Point(136, 126);
+            this.cboCategoria.Location = new System.Drawing.Point(149, 158);
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(100, 21);
             this.cboCategoria.TabIndex = 10;
@@ -133,7 +135,7 @@
             // 
             // btnAplicarFiltro
             // 
-            this.btnAplicarFiltro.Location = new System.Drawing.Point(136, 211);
+            this.btnAplicarFiltro.Location = new System.Drawing.Point(149, 234);
             this.btnAplicarFiltro.Name = "btnAplicarFiltro";
             this.btnAplicarFiltro.Size = new System.Drawing.Size(100, 23);
             this.btnAplicarFiltro.TabIndex = 11;
@@ -166,7 +168,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(136, 252);
+            this.btnAgregar.Location = new System.Drawing.Point(270, 307);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(100, 23);
             this.btnAgregar.TabIndex = 14;
@@ -185,7 +187,7 @@
             // administrarToolStripMenuItem
             // 
             this.administrarToolStripMenuItem.Name = "administrarToolStripMenuItem";
-            this.administrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.administrarToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.administrarToolStripMenuItem.Text = "Administrar";
             this.administrarToolStripMenuItem.Click += new System.EventHandler(this.administrarToolStripMenuItem_Click);
             // 
@@ -217,11 +219,33 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(385, 307);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(100, 23);
+            this.btnModificar.TabIndex = 15;
+            this.btnModificar.Text = "Modificar artículo";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(864, 307);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(100, 23);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar artículo";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 310);
+            this.ClientSize = new System.Drawing.Size(1273, 350);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.pbxPrincipal);
             this.Controls.Add(this.dgvPrincipal);
@@ -268,6 +292,8 @@
         private System.Windows.Forms.ToolStripMenuItem categoríasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem administrarToolStripMenuItem1;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }
 
