@@ -157,7 +157,7 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria  AND ";
+                string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND ";
                 if (campo == "Precio")
                 {
                     switch (criterio)
@@ -173,7 +173,7 @@ namespace Negocio
                             break;
                     }
                 }
-                else if (campo == "Codigo")
+                else if (campo == "Código")
                 {
                     switch (criterio)
                     {
@@ -203,6 +203,7 @@ namespace Negocio
                             break;
                     }
                 }
+                consulta += "ORDER BY Codigo";
 
                 datos.setConsulta(consulta);
                 datos.ejecutarLectura();

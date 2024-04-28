@@ -12,6 +12,7 @@ using Negocio;
 using Dominio;
 using System.Reflection;
 using System.CodeDom;
+using System.Diagnostics.Eventing.Reader;
 
 namespace TrabajoPractico
 {
@@ -217,6 +218,40 @@ namespace TrabajoPractico
             }
         }
 
+        private bool validarCampos()
+        {
+            if (cboCampo.SelectedIndex == -1)
+            {
+                MessageBox.Show("Seleccione el campo por el cual filtrar.");
+                return false;
+            }
+            if (cboCriterio.SelectedIndex == -1)
+            {
+                MessageBox.Show("Seleccione el criterio por el cual filtrar.");
+                return false;
+            }
+            if (cboCampo.SelectedIndex == 0)
+            {
+                if (txtFiltro.Text == "")
+                {
+                    MessageBox.Show("Ingrese un valor numérico para filtrar.");
+                    return false;
+                }
+                else
+                {
+                    foreach (char caracter in txtFiltro.Text)
+                    {
+                        if (!char.IsNumber(caracter))
+                        {
+                            MessageBox.Show("Introduzca valor númericos únicamente.");
+                            return false;
+                        }
+                    }
+                }
+            }
+            return true;
+        }
+
         private void btnFiltro_Click(object sender, EventArgs e)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
@@ -224,9 +259,13 @@ namespace TrabajoPractico
             indiceImagen = 0;
             try
             {
+                if (!validarCampos())
+                {
+                    return;
+                }
                 string campo = cboCampo.SelectedItem.ToString();
                 string criterio = cboCriterio.SelectedItem.ToString();
-                string filtro = cboFiltro.Text;
+                string filtro = txtFiltro.Text;
 
                 listaArticulos = negocio.filtrar(campo, criterio, filtro);
                 listaImagenes = imagenesNegocio.listar();
@@ -242,6 +281,10 @@ namespace TrabajoPractico
 
         private void cboCampo_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (cboCampo.SelectedIndex == -1)
+            {
+                return;
+            }
             string opcion = cboCampo.SelectedItem.ToString();
             if (opcion == "Precio")
             {
@@ -256,7 +299,6 @@ namespace TrabajoPractico
                 cboCriterio.Items.Add("Empieza con");
                 cboCriterio.Items.Add("Termina con");
                 cboCriterio.Items.Add("Contiene");
-
             }
         }
 
@@ -273,6 +315,18 @@ namespace TrabajoPractico
             {
                 MessageBox.Show("Debe seleccionar el artículo a visualizar.");
             }
+        }
+
+        private void lblDesactivarFiltro_Click(object sender, EventArgs e)
+        {
+            // Refrescamos los artículos
+            cargar();
+            // Reseteamos el campo seleccionado
+            cboCampo.SelectedIndex = -1;
+            // Vaciamos el listado de criterio
+            cboCriterio.Items.Clear();
+            // Vaciamos la caja de texto
+            txtFiltro.Clear();
         }
     }
 }
