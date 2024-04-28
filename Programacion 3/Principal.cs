@@ -85,7 +85,12 @@ namespace TrabajoPractico
         }
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
+
             cargar();
+            cboCampo.Items.Add("Precio");
+            cboCampo.Items.Add("Codigo");
+            cboCampo.Items.Add("Nombre");
+
         }
 
         private void cargar()
@@ -233,6 +238,56 @@ namespace TrabajoPractico
                     Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
                     CargarImagen(seleccionado.Imagenes[indiceImagen].ImagenUrl);
                 }
+            }
+        }
+
+        private void filtro(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFiltro_Click(object sender, EventArgs e)
+        {
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            try
+            {
+                string campo = cboCampo.SelectedItem.ToString();
+                string criterio = cboCriterio.SelectedItem.ToString();
+                string filtro = cboFiltro.Text;
+                  
+                dgvPrincipal.DataSource= negocio.filtrar(campo,criterio,filtro);
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+            
+        }
+
+        private void cboCampo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboCampo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string opcion = cboCampo.SelectedItem.ToString();
+            if (opcion == "Precio")
+            {
+                cboCriterio.Items.Clear();
+                cboCriterio.Items.Add("Mayor a");
+                cboCriterio.Items.Add("Igual a");
+                cboCriterio.Items.Add("Menor a");
+            }
+            else
+            {
+                cboCriterio.Items.Clear();
+                cboCriterio.Items.Add("Empieza con");
+                cboCriterio.Items.Add("Termina con");
+                cboCriterio.Items.Add("Contiene");
+
             }
         }
     }
