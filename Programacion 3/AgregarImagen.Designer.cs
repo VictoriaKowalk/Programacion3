@@ -1,6 +1,6 @@
 ﻿namespace Programacion_3
 {
-    partial class AgregarCategoria
+    partial class AgregarImagen
     {
         /// <summary>
         /// Required designer variable.
@@ -30,61 +30,80 @@
         {
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.txtNombreCategoria = new System.Windows.Forms.TextBox();
-            this.lblCategoria = new System.Windows.Forms.Label();
+            this.txtURL = new System.Windows.Forms.TextBox();
+            this.lblURL = new System.Windows.Forms.Label();
+            this.txtIDArticulo = new System.Windows.Forms.TextBox();
+            this.lblIDArticulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(124, 50);
+            this.btnAgregar.Location = new System.Drawing.Point(136, 80);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 9;
+            this.btnAgregar.TabIndex = 13;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(256, 113);
+            this.btnVolver.Location = new System.Drawing.Point(248, 111);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
-            this.btnVolver.TabIndex = 8;
+            this.btnVolver.TabIndex = 12;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // txtNombreCategoria
+            // txtURL
             // 
-            this.txtNombreCategoria.Location = new System.Drawing.Point(124, 24);
-            this.txtNombreCategoria.Name = "txtNombreCategoria";
-            this.txtNombreCategoria.Size = new System.Drawing.Size(199, 20);
-            this.txtNombreCategoria.TabIndex = 7;
+            this.txtURL.Location = new System.Drawing.Point(136, 22);
+            this.txtURL.Name = "txtURL";
+            this.txtURL.Size = new System.Drawing.Size(179, 20);
+            this.txtURL.TabIndex = 11;
             // 
-            // lblCategoria
+            // lblURL
             // 
-            this.lblCategoria.AutoSize = true;
-            this.lblCategoria.BackColor = System.Drawing.Color.Transparent;
-            this.lblCategoria.Location = new System.Drawing.Point(15, 27);
-            this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(109, 13);
-            this.lblCategoria.TabIndex = 6;
-            this.lblCategoria.Text = "Nombre de categoria:";
+            this.lblURL.AutoSize = true;
+            this.lblURL.BackColor = System.Drawing.Color.Transparent;
+            this.lblURL.Location = new System.Drawing.Point(7, 25);
+            this.lblURL.Name = "lblURL";
+            this.lblURL.Size = new System.Drawing.Size(95, 13);
+            this.lblURL.TabIndex = 10;
+            this.lblURL.Text = "URL de la imagen:";
             // 
-            // AgregarCategoria
+            // txtIDArticulo
+            // 
+            this.txtIDArticulo.Location = new System.Drawing.Point(136, 54);
+            this.txtIDArticulo.Name = "txtIDArticulo";
+            this.txtIDArticulo.Size = new System.Drawing.Size(179, 20);
+            this.txtIDArticulo.TabIndex = 15;
+            // 
+            // lblIDArticulo
+            // 
+            this.lblIDArticulo.AutoSize = true;
+            this.lblIDArticulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblIDArticulo.Location = new System.Drawing.Point(7, 57);
+            this.lblIDArticulo.Name = "lblIDArticulo";
+            this.lblIDArticulo.Size = new System.Drawing.Size(123, 13);
+            this.lblIDArticulo.TabIndex = 14;
+            this.lblIDArticulo.Text = "ID del artículo asociado:";
+            // 
+            // AgregarImagen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(330, 157);
+            this.Controls.Add(this.txtIDArticulo);
+            this.Controls.Add(this.lblIDArticulo);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnVolver);
-            this.Controls.Add(this.txtNombreCategoria);
-            this.Controls.Add(this.lblCategoria);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "AgregarCategoria";
+            this.Controls.Add(this.txtURL);
+            this.Controls.Add(this.lblURL);
+            this.Name = "AgregarImagen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nueva categoría";
-            this.Load += new System.EventHandler(this.AgregarCategoria_Load);
+            this.Text = "Nueva imagen";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,7 +113,9 @@
 
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.TextBox txtNombreCategoria;
-        private System.Windows.Forms.Label lblCategoria;
+        private System.Windows.Forms.TextBox txtURL;
+        private System.Windows.Forms.Label lblURL;
+        private System.Windows.Forms.TextBox txtIDArticulo;
+        private System.Windows.Forms.Label lblIDArticulo;
     }
 }

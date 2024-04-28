@@ -14,7 +14,7 @@ namespace Dominio
 
         public Articulo()
         {
-            Imagenes = new Imagenes();
+            Imagenes = new Imagen();
         }
 
         //public static Image Imagen { get; internal set; }
@@ -38,6 +38,6 @@ namespace Dominio
         [DisplayName("Categoria")]
         public Categoria Categoria { get; set; } 
 
-        public Imagenes Imagenes { get; set; }
+        public Imagen Imagenes { get; set; }
     }
 }

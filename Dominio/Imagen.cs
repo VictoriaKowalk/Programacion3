@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Imagenes
+    public class Imagen
     {
-        public int IDImagenes { get; set; }
+        public int IDImagen { get; set; }
         public int IDArticulo { get; set; }
         public string ImagenUrl { get; set; }
 
-        public Imagenes()
+        public Imagen()
         {
             IDArticulo = 0;
             ImagenUrl = "";

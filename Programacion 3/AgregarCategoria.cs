@@ -35,7 +35,7 @@ namespace Programacion_3
             {
                 categoria.Nombre = txtNombreCategoria.Text;
                 negocio.agregar(categoria);
-                MessageBox.Show("AGREGADO CORRECTAMENTE");
+                MessageBox.Show("Se agregó la categoría exitosamente.");
                 Close();
             }
             catch (Exception ex)

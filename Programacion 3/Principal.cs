@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Negocio;
 using Dominio;
+using System.Reflection;
+using System.CodeDom;
 
 namespace TrabajoPractico
 {
@@ -24,33 +26,6 @@ namespace TrabajoPractico
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void artículosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
 
         private void agregarArtículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -100,11 +75,19 @@ namespace TrabajoPractico
         }
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
+            cargar();
+        }
+
+        private void cargar()
+        {
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.listar();
             dgvPrincipal.DataSource = listaArticulos;
             dgvPrincipal.Columns["Imagenes"].Visible = false;
             dgvPrincipal.Columns["IDArticulo"].Visible = false;
+            dgvPrincipal.Columns["Codigo"].HeaderText = "Código";
+            dgvPrincipal.Columns["Descripcion"].HeaderText = "Descripción";
+            dgvPrincipal.Columns["Categoria"].HeaderText = "Categoría";
             CargarImagen(listaArticulos[0].Imagenes.ImagenUrl);
 
             MarcasNegocio marcaNegocio = new MarcasNegocio();
@@ -120,21 +103,17 @@ namespace TrabajoPractico
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void dgvPrincipal_SelectionChanged(object sender, EventArgs e)
         {
-            Articulo selecionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
-           CargarImagen(selecionado.Imagenes.ImagenUrl);
+            Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+            CargarImagen(seleccionado.Imagenes.ImagenUrl);
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             frmArticulos ventana = new frmArticulos();
             ventana.ShowDialog();
+            cargar();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -144,6 +123,7 @@ namespace TrabajoPractico
                 Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
                 frmArticulos ventana = new frmArticulos(seleccionado);
                 ventana.ShowDialog();
+                cargar();
             }
             else 
             {
@@ -165,7 +145,7 @@ namespace TrabajoPractico
                     {
                         negocio.eliminar(seleccionado.IDArticulo);
                         MessageBox.Show("Se ha eliminado el artículo.");
-                        //cargar();
+                        cargar();
                     }
                 }
                 catch (Exception ex)
@@ -177,6 +157,18 @@ namespace TrabajoPractico
             {
                 MessageBox.Show("Debe seleccionar el artículo a eliminar.");
             }
+        }
+
+        private void administrarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            frmImagenes ventana = new frmImagenes();
+            ventana.ShowDialog();
+            cargar();
+        }
+
+        private void dgvPrincipal_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

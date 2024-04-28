@@ -12,30 +12,17 @@ using System.Windows.Forms;
 
 namespace Programacion_3
 {
-    public partial class AgregarMarca : Form
+    public partial class AgregarImagen : Form
     {
-        public AgregarMarca()
+        private Imagen imagen;
+
+        public AgregarImagen()
         {
             InitializeComponent();
             //Fondo para la app
             Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
-        }
-
-        private void AgregarMarca_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -45,20 +32,28 @@ namespace Programacion_3
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Marca marca = new Marca();
-            MarcasNegocio negocio = new MarcasNegocio();
+            Articulo articulo = new Articulo();
+            ImagenesNegocio negocio = new ImagenesNegocio();
 
-            try
+            if (txtIDArticulo.Text == "" || txtURL.Text == "")
             {
-                marca.Nombre = txtNombreMarca.Text;
-                negocio.agregar(marca);
-                MessageBox.Show("Se agregó la marca exitosamente.");
-                Close();
+                MessageBox.Show("Por favor complete todos los campos.");
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.ToString());
+                try
+                {
+                    articulo.IDArticulo = int.Parse(txtIDArticulo.Text);
+                    articulo.Imagenes.ImagenUrl = txtURL.Text;
+                    negocio.agregarImagen(articulo);
+                    MessageBox.Show("Se agregó la imagen exitosamente.");
+                    Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
 
+                }
             }
         }
     }

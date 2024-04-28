@@ -22,7 +22,7 @@ namespace Negocio
         {
             string conexionLV = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
             string conexionMathias = "Data Source=DESKTOP-LPCCPED\\SQLEXPRESS;Initial Catalog=CATALOGO_P3_DB;Integrated Security=True";
-            conexion = new SqlConnection(conexionMathias);
+            conexion = new SqlConnection(conexionLV);
             comando = new SqlCommand();
         }
         public void setConsulta(string consulta)
@@ -59,6 +59,21 @@ namespace Negocio
             {
 
                 throw ex ;
+            }
+        }
+
+        public int ejecutarScalar()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                int cantidad = (int)comando.ExecuteScalar();
+                return cantidad;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
 

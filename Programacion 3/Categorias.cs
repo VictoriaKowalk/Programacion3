@@ -35,22 +35,24 @@ namespace Programacion_3
             this.Close();
         }
 
-        private void dgvMarcas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void frmCategorias_Load(object sender, EventArgs e)
         {
-
+            cargar();
         }
 
-        private void frmCategorias_Load(object sender, EventArgs e)
+        private void cargar()
         {
             CategoriasNegocio categoria = new CategoriasNegocio();
             listaCategoria = categoria.listar();
             dgvCategorias.DataSource = listaCategoria;
+            dgvCategorias.Columns["IDCategoria"].HeaderText = "ID";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             AgregarCategoria agregarCategoria = new AgregarCategoria();
             agregarCategoria.ShowDialog();
+            cargar();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,18 +64,26 @@ namespace Programacion_3
                 try
                 {
                     seleccionado = (Categoria)dgvCategorias.CurrentRow.DataBoundItem;
-                    DialogResult respuesta = MessageBox.Show("¿Eliminar el registro " + seleccionado.Nombre + "?", "Eliminar categoría", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                    if (respuesta == DialogResult.Yes)
+                    if (negocio.TieneProductosAsociados(seleccionado) == true)
                     {
-                        negocio.eliminar(seleccionado.IDCategoria);
-                        MessageBox.Show("Se ha eliminado la categoría.");
-                        //cargar();
+                        MessageBox.Show("No es posible borrar esta categoría ya que tiene productos asociados.");
+                    }
+                    else
+                    {
+                        DialogResult respuesta = MessageBox.Show("¿Eliminar la categoría " + seleccionado.Nombre + "?", "Eliminar categoría", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                        if (respuesta == DialogResult.Yes)
+                        {
+                            negocio.eliminar(seleccionado.IDCategoria);
+                            MessageBox.Show("Se ha eliminado la categoría.");
+                            cargar();
+                        }
                     }
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
                 }
+
             }
             else
             {

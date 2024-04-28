@@ -77,5 +77,16 @@ namespace Negocio
             }
         }
 
+        public bool TieneProductosAsociados(Categoria categoria)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            // Consulta SQL para contar los productos asociados a la marca
+            datos.setConsulta("SELECT COUNT(*) FROM articulos AS a INNER JOIN categorias AS c ON a.IdCategoria=c.ID WHERE c.ID=@IDCategoria;");
+            datos.setParametros("@IDCategoria", categoria.IDCategoria);
+            // Verifica cuántos productos asociados a la categoría hay
+            int cantidadProductos = datos.ejecutarScalar();
+
+            return cantidadProductos > 0;
+        }
     }
 }

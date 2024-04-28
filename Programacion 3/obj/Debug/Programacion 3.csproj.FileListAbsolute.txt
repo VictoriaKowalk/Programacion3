@@ -82,3 +82,5 @@ C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programaci
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.csproj.CopyComplete
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.exe
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion 3.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmImagenes.resources
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarImagen.resources

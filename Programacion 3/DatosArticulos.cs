@@ -15,6 +15,8 @@ namespace Programacion_3
     public partial class frmArticulos : Form
     {
         private Articulo articulo;
+        private string viejaURL;
+        private int viejaIDImagen;
 
         public frmArticulos()
         {
@@ -23,7 +25,7 @@ namespace Programacion_3
             Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
-            Text = "Nuevo Artículo";
+            Text = "Nuevo artículo";
         }
         //segundo construcctor para selecionado
         public frmArticulos(Articulo articulo)
@@ -34,7 +36,7 @@ namespace Programacion_3
             this.BackgroundImage = img;
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
             this.articulo = articulo;
-            Text = "Modificar Artículo";
+            Text = "Modificar artículo";
         }
         private void CargarImagen(string imagen)
         {
@@ -77,13 +79,16 @@ namespace Programacion_3
                     txtCodigo.Text = articulo.Codigo;
                     txtDescripcion.Text = articulo.Descripcion;
 
-                    // NO FUNCIONA CORRECTAMENTE
                     cboCategoria.SelectedValue = articulo.Categoria.IDCategoria;
                     cboMarca.SelectedValue = articulo.Marca.IDMarca;
                     
                     txtPrecio.Text = articulo.Precio.ToString();
                     txtImagen.Text = articulo.Imagenes.ImagenUrl.ToString();
                     CargarImagen(articulo.Imagenes.ImagenUrl);
+
+                    viejaURL = articulo.Imagenes.ImagenUrl;
+                    viejaIDImagen = articulo.Imagenes.IDImagen;
+
                 }
             }
             catch (Exception ex)
@@ -110,26 +115,38 @@ namespace Programacion_3
                 articulo.Descripcion = txtDescripcion.Text;
                 articulo.Nombre = txtNombre.Text;
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
-                Imagenes imagen = new Imagenes();    
+                Imagen imagen = new Imagen();    
                 imagen.ImagenUrl = txtImagen.Text;
                 articulo.Imagenes.ImagenUrl = txtImagen.Text;
-
 
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
 
-
+                // Si la ID es distinta de 0, se trata de un artículo ya existente,
+                // por ende es una modificación
                 if (articulo.IDArticulo != 0)
                 {
                     negocio.modificar(articulo);
-                    negocioImagenes.actualizarImagen(articulo);
-                    MessageBox.Show("Modificado exitosamente.");
+                    // Si el enlace cambió, se actualiza.
+                    if (articulo.Imagenes.ImagenUrl != viejaURL)
+                    {
+                        articulo.Imagenes.IDImagen = viejaIDImagen;
+                        MessageBox.Show(articulo.IDArticulo.ToString());
+                        MessageBox.Show(articulo.Imagenes.ImagenUrl.ToString());
+                        MessageBox.Show(articulo.Imagenes.IDImagen.ToString());
+                        negocioImagenes.actualizarImagen(articulo);
+                        MessageBox.Show("Modificado exitosamente.");
+                    }
                 }
                 else
                 {
                     negocio.agregar(articulo);
-                    articulo.IDArticulo = negocio.obtenerIDArticulo();
-                    negocioImagenes.agregarImagen(articulo);
+                    // Si el enlace no está vacío, se agrega
+                    if (articulo.Imagenes.ImagenUrl != "")
+                    {
+                        articulo.IDArticulo = negocio.obtenerIDArticulo();
+                        negocioImagenes.agregarImagen(articulo);
+                    }
                     MessageBox.Show("Agregado exitosamente.");
                 }
                 Close();

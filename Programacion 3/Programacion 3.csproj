@@ -64,6 +64,18 @@
     <Compile Include="Categorias.Designer.cs">
       <DependentUpon>Categorias.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarImagen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarImagen.Designer.cs">
+      <DependentUpon>AgregarImagen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imagenes.Designer.cs">
+      <DependentUpon>Imagenes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Marcas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,11 +99,17 @@
     <EmbeddedResource Include="AgregarCategoria.resx">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AgregarImagen.resx">
+      <DependentUpon>AgregarImagen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AgregarMarca.resx">
       <DependentUpon>AgregarMarca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Categorias.resx">
       <DependentUpon>Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imagenes.resx">
+      <DependentUpon>Imagenes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Marcas.resx">
       <DependentUpon>Marcas.cs</DependentUpon>

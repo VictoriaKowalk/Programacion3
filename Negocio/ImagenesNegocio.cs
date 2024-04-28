@@ -7,23 +7,22 @@ using Dominio;
 
 namespace Negocio
 {
-    public  class ImagenesNegocio
+    public class ImagenesNegocio
     {
-
-        List<Imagenes> listar()
+        public List<Imagen> listar()
         {
-            List<Imagenes> lista= new List<Imagenes>();
+            List<Imagen> lista = new List<Imagen>();
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.setConsulta("select Id,Idarticulo,ImagenUrl from IMAGENES");
+                datos.setConsulta("SELECT Id, IdArticulo, ImagenUrl FROM imagenes");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
-                    Imagenes aux = new Imagenes();
-                    aux.IDImagenes = (int)datos.Lector["Id"];
+                    Imagen aux = new Imagen();
+                    aux.IDImagen = (int)datos.Lector["Id"];
                     aux.IDArticulo = (int)datos.Lector["IdArticulo"];
                     aux.ImagenUrl = (string)datos.Lector["ImagenUrl"];
 
@@ -71,13 +70,15 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                // Insertar en IMAGENES
-                string consulta = "UPDATE imagenes SET ImagenUrl=@ImagenUrl WHERE IDARTICULO=@IdArticulo;";
+                // Actualizar IMAGENES
+                string consulta = "UPDATE imagenes SET ImagenUrl=@ImagenUrl WHERE IdArticulo=@IdArticulo AND ID=@ID;";
                 datos.setConsulta(consulta);
 
                 // Establecer parámetros para la imagen
+                // Si no especificamos ID, se actualizarían TODAS las imágenes dadas de cierto artículo
                 datos.setParametros("@IdArticulo", nuevo.IDArticulo);
                 datos.setParametros("@ImagenUrl", nuevo.Imagenes.ImagenUrl);
+                datos.setParametros("@ID", nuevo.Imagenes.IDImagen);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -88,6 +89,33 @@ namespace Negocio
             {
                 datos.cerrarConexion();
             }
+        }
+
+        public void eliminar(int id)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setConsulta("DELETE FROM Imagenes WHERE ID=@id");
+                datos.setParametros("@id", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public bool TieneProductosAsociados(Imagen imagen)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            // Consulta SQL para contar los productos asociados a la imagen
+            datos.setConsulta("SELECT COUNT(*) FROM IMAGENES I INNER JOIN Articulos A ON I.IDArticulo=A.ID WHERE I.ID=@IDImagen;");
+            datos.setParametros("@IDImagen", imagen.IDImagen);
+            // Verifica cuántos productos asociados a la imagen hay
+            int cantidadProductos = datos.ejecutarScalar();
+
+            return cantidadProductos > 0;
         }
 
     }

@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.dgvMarcas = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarcas)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnBuscar
+            // btnVolver
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(717, 279);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(56, 19);
-            this.btnBuscar.TabIndex = 33;
-            this.btnBuscar.Text = "Volver";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            this.btnVolver.Location = new System.Drawing.Point(717, 279);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(56, 19);
+            this.btnVolver.TabIndex = 33;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // dgvMarcas
             // 
@@ -58,7 +58,6 @@
             this.dgvMarcas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMarcas.Size = new System.Drawing.Size(559, 278);
             this.dgvMarcas.TabIndex = 34;
-            this.dgvMarcas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnAgregar
             // 
@@ -88,7 +87,7 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvMarcas);
-            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.btnVolver);
             this.Name = "frmMarcas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marcas";
@@ -100,7 +99,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.DataGridView dgvMarcas;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;

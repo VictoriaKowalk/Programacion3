@@ -29,42 +29,25 @@ namespace Programacion_3
             this.Close();
         }
 
-        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void frmMarcas_Load(object sender, EventArgs e)
         {
-
+            cargar();
         }
 
-        private void frmMarcas_Load(object sender, EventArgs e)
+
+        private void cargar()
         {
             MarcasNegocio marcas = new MarcasNegocio();
             listaMarcas = marcas.listar();
             dgvMarcas.DataSource = listaMarcas;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            dgvMarcas.Columns["IDMarca"].HeaderText = "ID";
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             AgregarMarca agregarMarca = new AgregarMarca();
             agregarMarca.ShowDialog();
-        }
-
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-
+            cargar();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -76,20 +59,21 @@ namespace Programacion_3
                 try
                 {
                     seleccionado = (Marca)dgvMarcas.CurrentRow.DataBoundItem;
-                    DialogResult respuesta = MessageBox.Show("¿Eliminar el registro " + seleccionado.Nombre + "?", "Eliminar marca", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                    if (respuesta == DialogResult.Yes)
+                    if (negocio.TieneProductosAsociados(seleccionado) == true)
                     {
-                        if (negocio.TieneProductosAsociados(seleccionado) != false)
-                        {
-                            MessageBox.Show("No se puede borrar esta marca, tiene un producto asociado");
-                        }
-                        else
+                        MessageBox.Show("No es posible borrar esta marca ya que tiene productos asociados.");
+                    } 
+                    else
+                    {
+                        DialogResult respuesta = MessageBox.Show("¿Eliminar la marca " + seleccionado.Nombre + "?", "Eliminar marca", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                        if (respuesta == DialogResult.Yes)
                         {
                             negocio.eliminar(seleccionado.IDMarca);
                             MessageBox.Show("Se ha eliminado la marca.");
+                            cargar();
                         }
-                        //cargar();
                     }
+
                 }
                 catch (Exception ex)
                 {

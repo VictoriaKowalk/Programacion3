@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, I.ImagenUrl, Precio,M.Id AS IDMarca,C.Id  AS IDCategoria FROM ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND I.IdArticulo=A.Id and I.IdArticulo=A.Id");
+                datos.setConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, I.ImagenUrl, I.ID AS IDImagen, Precio,M.Id AS IDMarca,C.Id  AS IDCategoria FROM ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND I.IdArticulo=A.Id and I.IdArticulo=A.Id");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -29,10 +29,13 @@ namespace Negocio
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
 
-                    aux.Imagenes = new Imagenes();
+                    aux.Imagenes = new Imagen();
 
                     if (!(datos.Lector["ImagenUrl"] is DBNull))
+                    {
                         aux.Imagenes.ImagenUrl = (string)datos.Lector["ImagenUrl"];
+                        aux.Imagenes.IDImagen = (int)datos.Lector["IDImagen"];
+                    }
 
                     aux.Marca = new Marca();
                     aux.Marca.Nombre = (string)datos.Lector["Marca"];
