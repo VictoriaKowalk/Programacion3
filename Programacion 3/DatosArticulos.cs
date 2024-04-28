@@ -36,6 +36,14 @@ namespace Programacion_3
             this.articulo = articulo;
             Text = "Modificar artículo";
         }
+
+        private void CargarImagen()
+        {
+            // Seteamos la imagen en nula si el artículo no tiene imagen asociada
+            pbxArticulo.Image = null;
+            pbxArticulo.Update();
+        }
+
         private void CargarImagen(string imagen)
         {
             // Usa la función Load de la PictureBox para mostrar la imagen de la URL dada
@@ -64,10 +72,12 @@ namespace Programacion_3
                 cboCategoria.DataSource = categorias.listar();
                 cboCategoria.ValueMember = "IdCategoria";
                 cboCategoria.DisplayMember = "Nombre";
+                cboCategoria.SelectedIndex = -1;
 
                 cboMarca.DataSource = marcas.listar();
                 cboMarca.ValueMember = "IdMarca";
                 cboMarca.DisplayMember = "Nombre";
+                cboMarca.SelectedIndex = -1;
 
                 // Si el artículo no es null, es una modificación
                 if (articulo!= null)
@@ -138,6 +148,15 @@ namespace Programacion_3
                             negocioImagenes.agregarImagen(imagen);
                         }
                     }
+                    else
+                    {
+                        // Si el enlace está vacío, y el artículo tiene al menos una imagen, borramos la imagen principal
+                        if (articulo.Imagenes.Count > 0)
+                        {
+                            imagen.IDImagen = articulo.Imagenes[0].IDImagen;
+                            negocioImagenes.eliminar(imagen.IDImagen);
+                        }
+                    }
                     MessageBox.Show("Modificado exitosamente.");
                 }
                 else
@@ -163,14 +182,16 @@ namespace Programacion_3
             }
         }
 
-        private void cboMarca_SelectedIndexChanged(object sender, EventArgs e)
+        private void txtImagen_Leave_1(object sender, EventArgs e)
         {
-
-        }
-
-        private void cboCategoria_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            if (txtImagen.Text != "")
+            {
+                CargarImagen(txtImagen.Text);
+            }
+            else
+            {
+                CargarImagen();
+            }
         }
     }
 }

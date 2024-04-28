@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programacion 3", "Programacion 3.csproj", "{D2589215-2855-405E-A526-C8C8A24347D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms", "Forms.csproj", "{D2589215-2855-405E-A526-C8C8A24347D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "..\Dominio\Dominio.csproj", "{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}"
 EndProject

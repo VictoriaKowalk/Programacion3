@@ -92,6 +92,7 @@
             this.txtImagen.Name = "txtImagen";
             this.txtImagen.Size = new System.Drawing.Size(180, 20);
             this.txtImagen.TabIndex = 25;
+            this.txtImagen.Leave += new System.EventHandler(this.txtImagen_Leave_1);
             // 
             // txtNombre
             // 
@@ -211,7 +212,6 @@
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(180, 21);
             this.cboCategoria.TabIndex = 34;
-            this.cboCategoria.SelectedIndexChanged += new System.EventHandler(this.cboCategoria_SelectedIndexChanged);
             // 
             // cboMarca
             // 
@@ -221,7 +221,6 @@
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(180, 21);
             this.cboMarca.TabIndex = 33;
-            this.cboMarca.SelectedIndexChanged += new System.EventHandler(this.cboMarca_SelectedIndexChanged);
             // 
             // pbxArticulo
             // 

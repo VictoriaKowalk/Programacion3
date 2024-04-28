@@ -14,22 +14,17 @@ namespace Programacion_3
 {
     public partial class verDetalle : Form
     {
-        public Articulo artii;
+        public Articulo articulo;
 
-        public Imagen imagen;
-
-
-        public verDetalle()
+        public verDetalle(Articulo articulo)
         {
             InitializeComponent();
-
-
-        }
-        public verDetalle(Articulo artii)
-        {
-            InitializeComponent();
-            this.artii = artii;
+            this.articulo = articulo;
             Text = "Detalle del producto";
+            //Fondo para la app
+            Bitmap img = new Bitmap(Application.StartupPath + @"/Fondo/backgrounds.jpg");
+            this.BackgroundImage = img;
+            this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
 
         private void verDetalle_Load(object sender, EventArgs e)
@@ -38,19 +33,19 @@ namespace Programacion_3
 
             try
             {
-                txtCodigo.Text = artii.Codigo;
-                txtDescripcion.Text = artii.Descripcion;
-                txtNombre.Text = artii.Nombre;
-                txtPrecio.Text = artii.Precio.ToString("$0,00");
-                txtMarca.Text = artii.Marca.ToString();
-                txtCategoria.Text=artii.Categoria.ToString();
+                txtIDArticulo.Text = articulo.IDArticulo.ToString();
+                txtCodigo.Text = articulo.Codigo;
+                txtDescripcion.Text = articulo.Descripcion;
+                txtNombre.Text = articulo.Nombre;
+                txtPrecio.Text = articulo.Precio.ToString("$0,00");
+                txtMarca.Text = articulo.Marca.ToString();
+                txtCategoria.Text=articulo.Categoria.ToString();
 
-                string UrlImagen = imagen.ImagenUrl;
-                cargarImagen(UrlImagen);
-
-
-
-
+                if (articulo.Imagenes.Count() > 0)
+                {
+                    string UrlImagen = articulo.Imagenes[0].ImagenUrl;
+                    cargarImagen(UrlImagen);
+                }
             }
             catch (Exception ex)
             {
@@ -73,6 +68,11 @@ namespace Programacion_3
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

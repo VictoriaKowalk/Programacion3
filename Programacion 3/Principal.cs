@@ -59,11 +59,6 @@ namespace TrabajoPractico
             ventana.ShowDialog();
         }
 
-        private void cboCategoria_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void CargarImagen()
         {
             // Usa la función Load de la PictureBox para mostrar la imagen de la URL dada
@@ -85,12 +80,10 @@ namespace TrabajoPractico
         }
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-
             cargar();
             cboCampo.Items.Add("Precio");
-            cboCampo.Items.Add("Codigo");
+            cboCampo.Items.Add("Código");
             cboCampo.Items.Add("Nombre");
-
         }
 
         private void cargar()
@@ -116,18 +109,6 @@ namespace TrabajoPractico
             else
             {
                 CargarImagen();
-            }
-            
-            MarcasNegocio marcaNegocio = new MarcasNegocio();
-            CategoriasNegocio categoriaNegocio = new CategoriasNegocio();
-            try
-            {
-                cboMarcas.DataSource = marcaNegocio.listar();
-                cboCategoria.DataSource = categoriaNegocio.listar();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
             }
         }
 
@@ -206,11 +187,6 @@ namespace TrabajoPractico
             cargar();
         }
 
-        private void dgvPrincipal_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void btnImagenSiguiente_Click(object sender, EventArgs e)
         {
             if (dgvPrincipal.CurrentRow != null)
@@ -241,34 +217,27 @@ namespace TrabajoPractico
             }
         }
 
-        private void filtro(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnFiltro_Click(object sender, EventArgs e)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
+            ImagenesNegocio imagenesNegocio = new ImagenesNegocio();
+            indiceImagen = 0;
             try
             {
                 string campo = cboCampo.SelectedItem.ToString();
                 string criterio = cboCriterio.SelectedItem.ToString();
                 string filtro = cboFiltro.Text;
-                  
-                dgvPrincipal.DataSource= negocio.filtrar(campo,criterio,filtro);
 
+                listaArticulos = negocio.filtrar(campo, criterio, filtro);
+                listaImagenes = imagenesNegocio.listar();
+                imagenesNegocio.vincularImagenes(listaArticulos, listaImagenes);
+                dgvPrincipal.DataSource = listaArticulos;
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.ToString());
             }
             
-        }
-
-        private void cboCampo_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void cboCampo_SelectedIndexChanged(object sender, EventArgs e)
@@ -293,12 +262,17 @@ namespace TrabajoPractico
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Articulo selecionado;
-            selecionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
-            verDetalle detalle = new verDetalle(selecionado);
-            detalle.ShowDialog();
-            cargar();
-
+            if (dgvPrincipal.CurrentRow != null)
+            {
+                Articulo seleccionado;
+                seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+                verDetalle detalle = new verDetalle(seleccionado);
+                detalle.ShowDialog();
+                cargar();
+            } else
+            {
+                MessageBox.Show("Debe seleccionar el artículo a visualizar.");
+            }
         }
     }
 }
