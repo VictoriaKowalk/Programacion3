@@ -16,7 +16,7 @@ namespace Negocio
 
             try
             {
-                datos.setConsulta("SELECT Id, IdArticulo, ImagenUrl FROM imagenes");
+                datos.setConsulta("SELECT Id, IdArticulo, ImagenUrl FROM imagenes ORDER BY IdArticulo");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -41,7 +41,7 @@ namespace Negocio
             }
         }
 
-        public void agregarImagen(Articulo nuevo)
+        public void agregarImagen(Imagen nuevaImagen)
         {
             AccesoDatos datos = new AccesoDatos();
             try
@@ -51,8 +51,8 @@ namespace Negocio
                 datos.setConsulta(consulta);
 
                 // Establecer parámetros para la imagen
-                datos.setParametros("@IdArticulo", nuevo.IDArticulo);
-                datos.setParametros("@ImagenUrl", nuevo.Imagenes.ImagenUrl);
+                datos.setParametros("@IdArticulo", nuevaImagen.IDArticulo);
+                datos.setParametros("@ImagenUrl", nuevaImagen.ImagenUrl);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -65,7 +65,7 @@ namespace Negocio
             }
         }
 
-        public void actualizarImagen(Articulo nuevo)
+        public void actualizarImagen(Imagen nuevaImagen)
         {
             AccesoDatos datos = new AccesoDatos();
             try
@@ -76,9 +76,9 @@ namespace Negocio
 
                 // Establecer parámetros para la imagen
                 // Si no especificamos ID, se actualizarían TODAS las imágenes dadas de cierto artículo
-                datos.setParametros("@IdArticulo", nuevo.IDArticulo);
-                datos.setParametros("@ImagenUrl", nuevo.Imagenes.ImagenUrl);
-                datos.setParametros("@ID", nuevo.Imagenes.IDImagen);
+                datos.setParametros("@IdArticulo", nuevaImagen.IDArticulo);
+                datos.setParametros("@ImagenUrl", nuevaImagen.ImagenUrl);
+                datos.setParametros("@ID", nuevaImagen.IDImagen);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -118,5 +118,20 @@ namespace Negocio
             return cantidadProductos > 0;
         }
 
+        public void vincularImagenes(List<Articulo> articulos, List<Imagen> imagenes)
+        // Vamos artículo por artículo y recorremos todas las imágenes para agregarlas
+        // a la lista de imágenes de cada artículo, cuando sea apropiado.
+        {
+            foreach (Articulo miArticulo in articulos)
+            {
+                foreach (Imagen miImagen in imagenes)
+                {
+                    if (miImagen.IDArticulo.ToString() == miArticulo.IDArticulo.ToString())
+                    {
+                        miArticulo.Imagenes.Add(miImagen);
+                    }
+                }
+            }
+        }
     }
 }

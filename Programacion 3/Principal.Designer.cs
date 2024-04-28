@@ -49,6 +49,8 @@
             this.administrarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnImagenAnterior = new System.Windows.Forms.Button();
+            this.btnImagenSiguiente = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPrincipal)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -253,11 +255,33 @@
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnImagenAnterior
+            // 
+            this.btnImagenAnterior.Location = new System.Drawing.Point(1012, 307);
+            this.btnImagenAnterior.Name = "btnImagenAnterior";
+            this.btnImagenAnterior.Size = new System.Drawing.Size(100, 23);
+            this.btnImagenAnterior.TabIndex = 14;
+            this.btnImagenAnterior.Text = "<< Anterior";
+            this.btnImagenAnterior.UseVisualStyleBackColor = true;
+            this.btnImagenAnterior.Click += new System.EventHandler(this.btnImagenAnterior_Click);
+            // 
+            // btnImagenSiguiente
+            // 
+            this.btnImagenSiguiente.Location = new System.Drawing.Point(1127, 307);
+            this.btnImagenSiguiente.Name = "btnImagenSiguiente";
+            this.btnImagenSiguiente.Size = new System.Drawing.Size(100, 23);
+            this.btnImagenSiguiente.TabIndex = 15;
+            this.btnImagenSiguiente.Text = "Siguiente >>";
+            this.btnImagenSiguiente.UseVisualStyleBackColor = true;
+            this.btnImagenSiguiente.Click += new System.EventHandler(this.btnImagenSiguiente_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 350);
+            this.Controls.Add(this.btnImagenSiguiente);
+            this.Controls.Add(this.btnImagenAnterior);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
@@ -310,6 +334,8 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ToolStripMenuItem imágenesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem administrarToolStripMenuItem2;
+        private System.Windows.Forms.Button btnImagenAnterior;
+        private System.Windows.Forms.Button btnImagenSiguiente;
     }
 }
 

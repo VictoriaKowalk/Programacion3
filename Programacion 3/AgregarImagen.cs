@@ -14,8 +14,6 @@ namespace Programacion_3
 {
     public partial class AgregarImagen : Form
     {
-        private Imagen imagen;
-
         public AgregarImagen()
         {
             InitializeComponent();
@@ -32,7 +30,6 @@ namespace Programacion_3
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Articulo articulo = new Articulo();
             ImagenesNegocio negocio = new ImagenesNegocio();
 
             if (txtIDArticulo.Text == "" || txtURL.Text == "")
@@ -43,9 +40,10 @@ namespace Programacion_3
             {
                 try
                 {
-                    articulo.IDArticulo = int.Parse(txtIDArticulo.Text);
-                    articulo.Imagenes.ImagenUrl = txtURL.Text;
-                    negocio.agregarImagen(articulo);
+                    Imagen imagen = new Imagen();
+                    imagen.IDArticulo = int.Parse(txtIDArticulo.Text);
+                    imagen.ImagenUrl = txtURL.Text;
+                    negocio.agregarImagen(imagen);
                     MessageBox.Show("Se agregó la imagen exitosamente.");
                     Close();
                 }

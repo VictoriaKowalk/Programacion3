@@ -81,8 +81,11 @@ namespace Programacion_3
                     cboMarca.SelectedValue = articulo.Marca.IDMarca;
                     
                     txtPrecio.Text = articulo.Precio.ToString();
-                    txtImagen.Text = articulo.Imagenes.ImagenUrl.ToString();
-                    CargarImagen(articulo.Imagenes.ImagenUrl);
+                    if (articulo.Imagenes.Count() > 0)
+                    {
+                        txtImagen.Text = articulo.Imagenes[0].ImagenUrl.ToString();
+                        CargarImagen(articulo.Imagenes[0].ImagenUrl);
+                    }
                 }
             }
             catch (Exception ex)
@@ -100,6 +103,8 @@ namespace Programacion_3
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
             ImagenesNegocio negocioImagenes = new ImagenesNegocio();
+            Imagen imagen = new Imagen();
+
             try
             {
                 if (articulo == null)
@@ -109,29 +114,43 @@ namespace Programacion_3
                 articulo.Descripcion = txtDescripcion.Text;
                 articulo.Nombre = txtNombre.Text;
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
-                Imagen imagen = new Imagen();    
-                imagen.ImagenUrl = txtImagen.Text;
-                articulo.Imagenes.ImagenUrl = txtImagen.Text;
-
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
 
-                // Si la ID es distinta de 0, se trata de un artículo ya existente,
-                // por ende es una modificación
+                // Si la ID es distinta de 0, se trata de un artículo ya existente (modificación)
                 if (articulo.IDArticulo != 0)
                 {
                     negocio.modificar(articulo);
-                    negocioImagenes.actualizarImagen(articulo);
+                    // Si el enlace no está vacío, decidimos si actualizar o agregar una nueva imagen
+                    if (txtImagen.Text != "")
+                    {
+                        imagen.ImagenUrl = txtImagen.Text;
+                        imagen.IDArticulo = articulo.IDArticulo;
+                        // Si el artículo tiene imágenes, modificamos la principal
+                        if (articulo.Imagenes.Count > 0)
+                        {
+                            imagen.IDImagen = articulo.Imagenes[0].IDImagen;
+                            negocioImagenes.actualizarImagen(imagen);
+                        }
+                        // De lo contrario, se agrega una nueva imagen
+                        else
+                        {
+                            negocioImagenes.agregarImagen(imagen);
+                        }
+                    }
                     MessageBox.Show("Modificado exitosamente.");
                 }
                 else
                 {
                     negocio.agregar(articulo);
-                    // Si el enlace no está vacío, se agrega
-                    if (articulo.Imagenes.ImagenUrl != "")
+                    if (txtImagen.Text != "")
                     {
-                        articulo.IDArticulo = negocio.obtenerIDArticulo();
-                        negocioImagenes.agregarImagen(articulo);
+                        // Si el enlace no está vacío, se agrega a la tabla de imágenes
+                        // Se obtiene el artículo al cual se va a vincular la imagen
+                        imagen.IDArticulo = negocio.obtenerIDArticulo();
+                        imagen.ImagenUrl = txtImagen.Text;
+                        MessageBox.Show(imagen.IDArticulo.ToString());
+                        negocioImagenes.agregarImagen(imagen);
                     }
                     MessageBox.Show("Agregado exitosamente.");
                 }

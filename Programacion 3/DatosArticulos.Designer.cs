@@ -105,18 +105,18 @@
             // 
             this.lblImagen.AutoSize = true;
             this.lblImagen.BackColor = System.Drawing.Color.Transparent;
-            this.lblImagen.Location = new System.Drawing.Point(30, 227);
+            this.lblImagen.Location = new System.Drawing.Point(20, 224);
             this.lblImagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblImagen.Name = "lblImagen";
-            this.lblImagen.Size = new System.Drawing.Size(45, 13);
+            this.lblImagen.Size = new System.Drawing.Size(87, 13);
             this.lblImagen.TabIndex = 23;
-            this.lblImagen.Text = "Imagen:";
+            this.lblImagen.Text = "Imagen principal:";
             // 
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.BackColor = System.Drawing.Color.Transparent;
-            this.lblMarca.Location = new System.Drawing.Point(30, 154);
+            this.lblMarca.Location = new System.Drawing.Point(20, 152);
             this.lblMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(40, 13);
@@ -127,7 +127,7 @@
             // 
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.BackColor = System.Drawing.Color.Transparent;
-            this.lblCategoria.Location = new System.Drawing.Point(30, 179);
+            this.lblCategoria.Location = new System.Drawing.Point(20, 176);
             this.lblCategoria.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(57, 13);
@@ -138,7 +138,7 @@
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.BackColor = System.Drawing.Color.Transparent;
-            this.lblPrecio.Location = new System.Drawing.Point(30, 202);
+            this.lblPrecio.Location = new System.Drawing.Point(20, 200);
             this.lblPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(40, 13);
@@ -149,7 +149,7 @@
             // 
             this.lblCodArt.AutoSize = true;
             this.lblCodArt.BackColor = System.Drawing.Color.Transparent;
-            this.lblCodArt.Location = new System.Drawing.Point(30, 102);
+            this.lblCodArt.Location = new System.Drawing.Point(20, 104);
             this.lblCodArt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCodArt.Name = "lblCodArt";
             this.lblCodArt.Size = new System.Drawing.Size(43, 13);
@@ -160,7 +160,7 @@
             // 
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.BackColor = System.Drawing.Color.Transparent;
-            this.lblDescripcion.Location = new System.Drawing.Point(30, 128);
+            this.lblDescripcion.Location = new System.Drawing.Point(20, 128);
             this.lblDescripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(66, 13);
@@ -171,7 +171,7 @@
             // 
             this.lblNombreArt.AutoSize = true;
             this.lblNombreArt.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombreArt.Location = new System.Drawing.Point(30, 79);
+            this.lblNombreArt.Location = new System.Drawing.Point(20, 80);
             this.lblNombreArt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombreArt.Name = "lblNombreArt";
             this.lblNombreArt.Size = new System.Drawing.Size(47, 13);
@@ -184,7 +184,7 @@
             this.lblModificar.BackColor = System.Drawing.Color.Transparent;
             this.lblModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblModificar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblModificar.Location = new System.Drawing.Point(23, 26);
+            this.lblModificar.Location = new System.Drawing.Point(23, 27);
             this.lblModificar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblModificar.Name = "lblModificar";
             this.lblModificar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -228,7 +228,7 @@
             this.pbxArticulo.Location = new System.Drawing.Point(293, 90);
             this.pbxArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(121, 139);
+            this.pbxArticulo.Size = new System.Drawing.Size(121, 123);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 35;
             this.pbxArticulo.TabStop = false;

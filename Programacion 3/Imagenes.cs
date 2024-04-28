@@ -55,15 +55,18 @@ namespace Programacion_3
             listaImagenes = imagenes.listar();
             dgvImagenes.DataSource = listaImagenes;
             dgvImagenes.Columns["IDImagen"].Visible = false;
-            dgvImagenes.Columns["IDArticulo"].HeaderText = "Artículo asociado";
+            dgvImagenes.Columns["IDArticulo"].HeaderText = "ID de artículo asociado";
             dgvImagenes.Columns["ImagenURL"].HeaderText = "Enlace";
             CargarImagen(listaImagenes[0].ImagenUrl);
         }
 
         private void dgvImagenes_SelectionChanged(object sender, EventArgs e)
         {
-            Imagen seleccionado = (Imagen)dgvImagenes.CurrentRow.DataBoundItem;
-            CargarImagen(seleccionado.ImagenUrl);
+            if (dgvImagenes.CurrentRow != null)
+            {
+                Imagen seleccionado = (Imagen)dgvImagenes.CurrentRow.DataBoundItem;
+                CargarImagen(seleccionado.ImagenUrl);
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

@@ -14,20 +14,20 @@ namespace Dominio
 
         public Articulo()
         {
-            Imagenes = new Imagen();
+            Imagenes = new List<Imagen>();
         }
 
         //public static Image Imagen { get; internal set; }
         public int IDArticulo { get; set; }
+
         [DisplayName("Codigo ")]
         public string Codigo { get; set; }
+
         [DisplayName("Descripcion")]
         public string Descripcion { get; set; }
 
         [DisplayName("Nombre")]
         public string Nombre { get; set; }
-
-     
 
         [DisplayName("Precio")]
         public decimal Precio { get; set; }
@@ -36,8 +36,8 @@ namespace Dominio
         public Marca Marca { get; set; }
 
         [DisplayName("Categoria")]
-        public Categoria Categoria { get; set; } 
+        public Categoria Categoria { get; set; }
 
-        public Imagen Imagenes { get; set; }
+        public List<Imagen> Imagenes { get; set; }
     }
 }

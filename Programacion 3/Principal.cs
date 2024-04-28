@@ -18,6 +18,8 @@ namespace TrabajoPractico
     public partial class frmPrincipal : Form
     {
         private List<Dominio.Articulo> listaArticulos;
+        private List<Dominio.Imagen> listaImagenes;
+        private int indiceImagen;
         public frmPrincipal()
         {
             InitializeComponent();
@@ -61,6 +63,14 @@ namespace TrabajoPractico
         {
 
         }
+
+        private void CargarImagen()
+        {
+            // Usa la función Load de la PictureBox para mostrar la imagen de la URL dada
+            pbxPrincipal.Image = null;
+            pbxPrincipal.Update();
+        }
+
         private void CargarImagen(string imagen)
         {
             // Usa la función Load de la PictureBox para mostrar la imagen de la URL dada
@@ -81,15 +91,28 @@ namespace TrabajoPractico
         private void cargar()
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
+            ImagenesNegocio imagenesNegocio = new ImagenesNegocio();
+            indiceImagen = 0;
+
             listaArticulos = negocio.listar();
+            listaImagenes = imagenesNegocio.listar();
+            imagenesNegocio.vincularImagenes(listaArticulos, listaImagenes);
             dgvPrincipal.DataSource = listaArticulos;
-            dgvPrincipal.Columns["Imagenes"].Visible = false;
             dgvPrincipal.Columns["IDArticulo"].Visible = false;
             dgvPrincipal.Columns["Codigo"].HeaderText = "Código";
             dgvPrincipal.Columns["Descripcion"].HeaderText = "Descripción";
             dgvPrincipal.Columns["Categoria"].HeaderText = "Categoría";
-            CargarImagen(listaArticulos[0].Imagenes.ImagenUrl);
-
+            // Si el artículo tiene imágenes, se carga la primera, de lo contrario
+            // se setea la imagen vacía.
+            if (listaArticulos[0].Imagenes.Count() > 0)
+            {
+                CargarImagen(listaArticulos[0].Imagenes[0].ImagenUrl);
+            } 
+            else
+            {
+                CargarImagen();
+            }
+            
             MarcasNegocio marcaNegocio = new MarcasNegocio();
             CategoriasNegocio categoriaNegocio = new CategoriasNegocio();
             try
@@ -105,8 +128,20 @@ namespace TrabajoPractico
 
         private void dgvPrincipal_SelectionChanged(object sender, EventArgs e)
         {
-            Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
-            CargarImagen(seleccionado.Imagenes.ImagenUrl);
+            // Cuando cambiamos de registro, reseteamos el índice a 0.
+            indiceImagen = 0;
+            if (dgvPrincipal.CurrentRow != null)
+            {
+                Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+                if (seleccionado.Imagenes.Count() > 0)
+                {
+                    CargarImagen(seleccionado.Imagenes[indiceImagen].ImagenUrl);
+                }
+                else
+                {
+                    CargarImagen();
+                }
+            }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -169,6 +204,36 @@ namespace TrabajoPractico
         private void dgvPrincipal_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnImagenSiguiente_Click(object sender, EventArgs e)
+        {
+            if (dgvPrincipal.CurrentRow != null)
+            {
+                // Para pasar a la siguiente imagen, aumentamos el índice.
+                // Comprobamos que aún podamos avanzar en la lista.
+                Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+                if (seleccionado.Imagenes.Count() - 1 > indiceImagen)
+                {
+                    indiceImagen++;
+                    CargarImagen(seleccionado.Imagenes[indiceImagen].ImagenUrl);
+                }
+            }
+        }
+
+        private void btnImagenAnterior_Click(object sender, EventArgs e)
+        {
+            if (dgvPrincipal.CurrentRow != null)
+            {
+                // Para pasar a la anterior imagen, reducimos el índice.
+                // Comprobamos que aún podamos retroceder en la lista.
+                if (indiceImagen > 0)
+                {
+                    indiceImagen--;
+                    Articulo seleccionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+                    CargarImagen(seleccionado.Imagenes[indiceImagen].ImagenUrl);
+                }
+            }
         }
     }
 }
