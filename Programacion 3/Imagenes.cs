@@ -76,18 +76,25 @@ namespace Programacion_3
                 {
                     seleccionado = (Imagen)dgvImagenes.CurrentRow.DataBoundItem;
                     string mensaje = "¿Eliminar la imagen?";
-                    if (negocio.TieneProductosAsociados(seleccionado) == true)
+                    if (seleccionado.ImagenUrl != "")
                     {
-                        mensaje = "Esta imagen tiene productos asociados, ¿está seguro que desea eliminarla?";
-                    }
-                    DialogResult respuesta = MessageBox.Show(mensaje, "Eliminar imagen", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                    if (respuesta == DialogResult.Yes)
+                        if (negocio.TieneProductosAsociados(seleccionado) == true)
+                        {
+                            mensaje = "Esta imagen tiene productos asociados, ¿está seguro que desea eliminarla?";
+                        }
+                        DialogResult respuesta = MessageBox.Show(mensaje, "Eliminar imagen", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                        if (respuesta == DialogResult.Yes)
+                        {
+                            negocio.eliminar(seleccionado.IDImagen);
+                            MessageBox.Show("Se ha eliminado la imagen.");
+                            cargar();
+                        }
+                    } else
                     {
                         negocio.eliminar(seleccionado.IDImagen);
                         MessageBox.Show("Se ha eliminado la imagen.");
                         cargar();
                     }
-
                 }
                 catch (Exception ex)
                 {

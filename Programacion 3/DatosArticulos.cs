@@ -15,8 +15,6 @@ namespace Programacion_3
     public partial class frmArticulos : Form
     {
         private Articulo articulo;
-        private string viejaURL;
-        private int viejaIDImagen;
 
         public frmArticulos()
         {
@@ -85,10 +83,6 @@ namespace Programacion_3
                     txtPrecio.Text = articulo.Precio.ToString();
                     txtImagen.Text = articulo.Imagenes.ImagenUrl.ToString();
                     CargarImagen(articulo.Imagenes.ImagenUrl);
-
-                    viejaURL = articulo.Imagenes.ImagenUrl;
-                    viejaIDImagen = articulo.Imagenes.IDImagen;
-
                 }
             }
             catch (Exception ex)
@@ -127,16 +121,8 @@ namespace Programacion_3
                 if (articulo.IDArticulo != 0)
                 {
                     negocio.modificar(articulo);
-                    // Si el enlace cambió, se actualiza.
-                    if (articulo.Imagenes.ImagenUrl != viejaURL)
-                    {
-                        articulo.Imagenes.IDImagen = viejaIDImagen;
-                        MessageBox.Show(articulo.IDArticulo.ToString());
-                        MessageBox.Show(articulo.Imagenes.ImagenUrl.ToString());
-                        MessageBox.Show(articulo.Imagenes.IDImagen.ToString());
-                        negocioImagenes.actualizarImagen(articulo);
-                        MessageBox.Show("Modificado exitosamente.");
-                    }
+                    negocioImagenes.actualizarImagen(articulo);
+                    MessageBox.Show("Modificado exitosamente.");
                 }
                 else
                 {
