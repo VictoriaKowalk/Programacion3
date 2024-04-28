@@ -120,67 +120,38 @@ namespace Programacion_3
                 if (articulo == null)
                     articulo = new Articulo();
 
-                articulo.Codigo = txtCodigo.Text;
-                articulo.Descripcion = txtDescripcion.Text;
-                articulo.Nombre = txtNombre.Text;
-                articulo.Precio = decimal.Parse(txtPrecio.Text);
-                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
-                articulo.Marca = (Marca)cboMarca.SelectedItem;
+                if (string.IsNullOrWhiteSpace(txtCodigo.Text) ||
+                    string.IsNullOrWhiteSpace(txtDescripcion.Text) ||
+                    string.IsNullOrWhiteSpace(txtNombre.Text) ||
+                    string.IsNullOrWhiteSpace(txtPrecio.Text) ||
+                    cboCategoria.SelectedItem == null ||
+                    cboMarca.SelectedItem == null)
+                {
+                    MessageBox.Show("Por favor, complete todos los campos obligatorios.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
-                // Si la ID es distinta de 0, se trata de un artículo ya existente (modificación)
-                if (articulo.IDArticulo != 0)
+                decimal precio;
+                if (!decimal.TryParse(txtPrecio.Text, out precio))
                 {
-                    negocio.modificar(articulo);
-                    // Si el enlace no está vacío, decidimos si actualizar o agregar una nueva imagen
-                    if (txtImagen.Text != "")
-                    {
-                        imagen.ImagenUrl = txtImagen.Text;
-                        imagen.IDArticulo = articulo.IDArticulo;
-                        // Si el artículo tiene imágenes, modificamos la principal
-                        if (articulo.Imagenes.Count > 0)
-                        {
-                            imagen.IDImagen = articulo.Imagenes[0].IDImagen;
-                            negocioImagenes.actualizarImagen(imagen);
-                        }
-                        // De lo contrario, se agrega una nueva imagen
-                        else
-                        {
-                            negocioImagenes.agregarImagen(imagen);
-                        }
-                    }
-                    else
-                    {
-                        // Si el enlace está vacío, y el artículo tiene al menos una imagen, borramos la imagen principal
-                        if (articulo.Imagenes.Count > 0)
-                        {
-                            imagen.IDImagen = articulo.Imagenes[0].IDImagen;
-                            negocioImagenes.eliminar(imagen.IDImagen);
-                        }
-                    }
-                    MessageBox.Show("Modificado exitosamente.");
+                    MessageBox.Show("El precio debe ser un valor numérico.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
-                else
+
+                if (txtImagen.Text.Length > 255)
                 {
-                    negocio.agregar(articulo);
-                    if (txtImagen.Text != "")
-                    {
-                        // Si el enlace no está vacío, se agrega a la tabla de imágenes
-                        // Se obtiene el artículo al cual se va a vincular la imagen
-                        imagen.IDArticulo = negocio.obtenerIDArticulo();
-                        imagen.ImagenUrl = txtImagen.Text;
-                        MessageBox.Show(imagen.IDArticulo.ToString());
-                        negocioImagenes.agregarImagen(imagen);
-                    }
-                    MessageBox.Show("Agregado exitosamente.");
+                    MessageBox.Show("La URL de la imagen es demasiado larga. Por favor, ingrese una URL más corta.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
-                Close();
+
+                
             }
             catch (Exception ex)
             {
-
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void txtImagen_Leave_1(object sender, EventArgs e)
         {
