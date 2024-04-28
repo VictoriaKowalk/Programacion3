@@ -86,3 +86,4 @@ C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Progra
 C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarImagen.resources
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.AgregarImagen.resources
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.frmImagenes.resources
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Programacion 3\obj\Debug\Programacion_3.verDetalle.resources

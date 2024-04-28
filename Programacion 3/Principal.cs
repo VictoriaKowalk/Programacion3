@@ -290,5 +290,15 @@ namespace TrabajoPractico
 
             }
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Articulo selecionado;
+            selecionado = (Articulo)dgvPrincipal.CurrentRow.DataBoundItem;
+            verDetalle detalle = new verDetalle(selecionado);
+            detalle.ShowDialog();
+            cargar();
+
+        }
     }
 }
