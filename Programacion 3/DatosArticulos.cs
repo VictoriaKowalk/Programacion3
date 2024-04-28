@@ -104,12 +104,34 @@ namespace Programacion_3
             }
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        private bool validarArticulo()
         {
-            btnAceptar_Click(sender, e, txtImagen);
+            if (string.IsNullOrWhiteSpace(txtCodigo.Text) ||
+                string.IsNullOrWhiteSpace(txtNombre.Text) ||
+                string.IsNullOrWhiteSpace(txtPrecio.Text) ||
+                cboCategoria.SelectedItem == null ||
+                cboMarca.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, complete todos los campos obligatorios.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            decimal precio;
+            if (!decimal.TryParse(txtPrecio.Text, out precio))
+            {
+                MessageBox.Show("El precio debe ser un valor numérico.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            if (txtImagen.Text.Length > 255)
+            {
+                MessageBox.Show("La URL de la imagen es demasiado larga. Por favor, ingrese una URL más corta.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e, TextBox txtImagen)
+        private void btnAceptar_Click(object sender, EventArgs e)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
             ImagenesNegocio negocioImagenes = new ImagenesNegocio();
@@ -117,41 +139,75 @@ namespace Programacion_3
 
             try
             {
+                if (!validarArticulo())
+                {
+                    return;
+                }
+
                 if (articulo == null)
                     articulo = new Articulo();
 
-                if (string.IsNullOrWhiteSpace(txtCodigo.Text) ||
-                    string.IsNullOrWhiteSpace(txtDescripcion.Text) ||
-                    string.IsNullOrWhiteSpace(txtNombre.Text) ||
-                    string.IsNullOrWhiteSpace(txtPrecio.Text) ||
-                    cboCategoria.SelectedItem == null ||
-                    cboMarca.SelectedItem == null)
-                {
-                    MessageBox.Show("Por favor, complete todos los campos obligatorios.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
+                articulo.Codigo = txtCodigo.Text;
+                articulo.Descripcion = txtDescripcion.Text;
+                articulo.Nombre = txtNombre.Text;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
+                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+                articulo.Marca = (Marca)cboMarca.SelectedItem;
 
-                decimal precio;
-                if (!decimal.TryParse(txtPrecio.Text, out precio))
+                // Si la ID es distinta de 0, se trata de un artículo ya existente (modificación)
+                if (articulo.IDArticulo != 0)
                 {
-                    MessageBox.Show("El precio debe ser un valor numérico.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
+                    negocio.modificar(articulo);
+                    // Si el enlace no está vacío, decidimos si actualizar o agregar una nueva imagen
+                    if (txtImagen.Text != "")
+                    {
+                        imagen.ImagenUrl = txtImagen.Text;
+                        imagen.IDArticulo = articulo.IDArticulo;
+                        // Si el artículo tiene imágenes, modificamos la principal
+                        if (articulo.Imagenes.Count > 0)
+                        {
+                            imagen.IDImagen = articulo.Imagenes[0].IDImagen;
+                            negocioImagenes.actualizarImagen(imagen);
+                        }
+                        // De lo contrario, se agrega una nueva imagen
+                        else
+                        {
+                            negocioImagenes.agregarImagen(imagen);
+                        }
+                    }
+                    else
+                    {
+                        // Si el enlace está vacío, y el artículo tiene al menos una imagen, borramos la imagen principal
+                        if (articulo.Imagenes.Count > 0)
+                        {
+                            imagen.IDImagen = articulo.Imagenes[0].IDImagen;
+                            negocioImagenes.eliminar(imagen.IDImagen);
+                        }
+                    }
+                    MessageBox.Show("Modificado exitosamente.");
                 }
-
-                if (txtImagen.Text.Length > 255)
+                else
                 {
-                    MessageBox.Show("La URL de la imagen es demasiado larga. Por favor, ingrese una URL más corta.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
+                    negocio.agregar(articulo);
+                    if (txtImagen.Text != "")
+                    {
+                        // Si el enlace no está vacío, se agrega a la tabla de imágenes
+                        // Se obtiene el artículo al cual se va a vincular la imagen
+                        imagen.IDArticulo = negocio.obtenerIDArticulo();
+                        imagen.ImagenUrl = txtImagen.Text;
+                        MessageBox.Show(imagen.IDArticulo.ToString());
+                        negocioImagenes.agregarImagen(imagen);
+                    }
+                    MessageBox.Show("Agregado exitosamente.");
                 }
-
-                
+                Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                MessageBox.Show(ex.ToString());
             }
         }
-
 
         private void txtImagen_Leave_1(object sender, EventArgs e)
         {

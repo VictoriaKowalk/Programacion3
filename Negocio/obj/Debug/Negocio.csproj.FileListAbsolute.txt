@@ -34,3 +34,21 @@ C:\Users\Mathi\Desktop\carpeta\Programacion3\Negocio\obj\Debug\Negocio.csproj.Co
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Negocio\obj\Debug\Negocio.dll
 C:\Users\Mathi\Desktop\carpeta\Programacion3\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\bin\Debug\Negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\bin\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\obj\Debug\Negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Nueva carpeta\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\bin\Debug\Negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\bin\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\obj\Debug\Negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Negocio\obj\Debug\Negocio.pdb

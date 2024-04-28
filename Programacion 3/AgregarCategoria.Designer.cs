@@ -39,7 +39,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(124, 50);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 9;
+            this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -49,7 +49,7 @@
             this.btnVolver.Location = new System.Drawing.Point(256, 113);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
-            this.btnVolver.TabIndex = 8;
+            this.btnVolver.TabIndex = 2;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -59,7 +59,7 @@
             this.txtNombreCategoria.Location = new System.Drawing.Point(124, 24);
             this.txtNombreCategoria.Name = "txtNombreCategoria";
             this.txtNombreCategoria.Size = new System.Drawing.Size(199, 20);
-            this.txtNombreCategoria.TabIndex = 7;
+            this.txtNombreCategoria.TabIndex = 0;
             // 
             // lblCategoria
             // 
@@ -80,7 +80,7 @@
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.txtNombreCategoria);
             this.Controls.Add(this.lblCategoria);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AgregarCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nueva categoría";

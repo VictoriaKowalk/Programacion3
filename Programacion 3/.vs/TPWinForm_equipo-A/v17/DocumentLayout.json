@@ -1,149 +1,187 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\",
+  "WorkspaceRootPath": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\negocio\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\programacion 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|c:\\users\\lucas\\desktop\\repo github\\tp-winform-equipo-a\\programacion 3\\agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\datosarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:datosarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\negocio\\imagenesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarmarca.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarmarca.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarimagen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarimagen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\negocio\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\imagenes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:datosarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Forms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:verdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\datosarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:datosarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\agregarimagen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:agregarimagen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\imagenes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:imagenes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\marcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\marcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:marcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A574121-E049-490B-9E8B-02CFDFDFB1DB}|..\\Negocio\\Negocio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\negocio\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\categorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\categorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2589215-2855-405E-A526-C8C8A24347D7}|Programacion 3.csproj|solutionrelative:categorias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BB5DFB-2AFB-425B-A5D0-736FE1CD0015}|..\\Dominio\\Dominio.csproj|c:\\users\\lucas\\desktop\\repo github\\programacion3\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ListaArticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Negocio\\ArticulosNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -152,8 +190,43 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Negocio\\AccesoDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ListaArticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ArticulosNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\AccesoDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ImagenesNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\MarcasNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\CategoriasNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\AccesoDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\ArticulosNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\CategoriasNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -163,7 +236,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -171,11 +244,112 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:23:05.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "..\\Negocio\\AccesoDatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:22:55.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Dominio\\Categoria.cs",
+              "RelativeToolTip": "..\\Dominio\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:22:53.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Dominio\\Imagen.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Dominio\\Imagen.cs",
+              "RelativeToolTip": "..\\Dominio\\Imagen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:22:53.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Dominio\\Marca.cs",
+              "RelativeToolTip": "..\\Dominio\\Marca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:22:51.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AgregarMarca.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.Designer.cs",
+              "RelativeDocumentMoniker": "AgregarMarca.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.Designer.cs",
+              "RelativeToolTip": "AgregarMarca.Designer.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwCwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:07:35.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgregarImagen.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.cs",
+              "RelativeDocumentMoniker": "AgregarImagen.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.cs",
+              "RelativeToolTip": "AgregarImagen.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAwCQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:00:40.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Categorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Categorias.cs",
+              "RelativeDocumentMoniker": "Categorias.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\Categorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\Categorias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:00:21.581Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs [Dise\u00F1o]",
               "RelativeToolTip": "Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T20:55:20.901Z",
@@ -185,363 +359,46 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs",
               "RelativeToolTip": "Principal.cs",
-              "ViewState": "AQIAADUBAAAAAAAAAIAwwEoBAAAFAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAADgvzwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T20:55:20.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AgregarMarca.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs",
-              "RelativeDocumentMoniker": "AgregarMarca.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs [Dise\u00F1o]",
-              "RelativeToolTip": "AgregarMarca.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T20:55:14.754Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AgregarMarca.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs",
-              "RelativeDocumentMoniker": "AgregarMarca.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs [Dise\u00F1o]",
-              "RelativeToolTip": "AgregarMarca.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:44:10.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "verDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verDetalle.cs",
-              "RelativeDocumentMoniker": "verDetalle.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verDetalle.cs",
-              "RelativeToolTip": "verDetalle.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAUwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:37:28.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Marcas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.cs",
-              "RelativeDocumentMoniker": "Marcas.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Marcas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:10:46.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs",
-              "RelativeDocumentMoniker": "Principal.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Principal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T21:17:25.026Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs",
-              "RelativeDocumentMoniker": "Principal.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs",
-              "RelativeToolTip": "Principal.cs",
-              "ViewState": "AQIAAO4AAAAAAAAAAADgvzwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T21:17:32.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticulosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ArticulosNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ArticulosNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
-              "ViewState": "AQIAAJgAAAAAAAAAAAAjwK8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T21:54:22.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "..\\Negocio\\AccesoDatos.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:21:31.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Principal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.Designer.cs",
-              "RelativeDocumentMoniker": "Principal.Designer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.Designer.cs",
-              "RelativeToolTip": "Principal.Designer.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAkwEcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:08:22.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "Title": "CategoriasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Negocio\\CategoriasNegocio.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\CategoriasNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Negocio\\CategoriasNegocio.cs",
+              "RelativeToolTip": "..\\Negocio\\CategoriasNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:27:30.146Z",
+              "WhenOpened": "2024-04-28T23:23:06.85Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "verDetalle.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verDetalle.cs",
-              "RelativeDocumentMoniker": "verDetalle.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verDetalle.cs [Dise\u00F1o]",
-              "RelativeToolTip": "verDetalle.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:42:46.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DatosArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.cs",
-              "RelativeDocumentMoniker": "DatosArticulos.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.cs",
-              "RelativeToolTip": "DatosArticulos.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAArwBkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T20:16:05.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DatosArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.cs",
-              "RelativeDocumentMoniker": "DatosArticulos.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DatosArticulos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T20:15:58.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DatosArticulos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.Designer.cs",
-              "RelativeDocumentMoniker": "DatosArticulos.Designer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.Designer.cs",
-              "RelativeToolTip": "DatosArticulos.Designer.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAAANQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T00:14:24.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AgregarMarca.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs",
-              "RelativeDocumentMoniker": "AgregarMarca.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs",
-              "RelativeToolTip": "AgregarMarca.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:14:31.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AgregarImagen.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.cs",
-              "RelativeDocumentMoniker": "AgregarImagen.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.cs [Dise\u00F1o]",
-              "RelativeToolTip": "AgregarImagen.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:54:12.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ImagenesNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ImagenesNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\ImagenesNegocio.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ImagenesNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\ImagenesNegocio.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAACsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T18:04:39.035Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Imagenes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.cs",
-              "RelativeDocumentMoniker": "Imagenes.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Imagenes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T21:55:57.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AgregarImagen.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.cs",
-              "RelativeDocumentMoniker": "AgregarImagen.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.cs",
-              "RelativeToolTip": "AgregarImagen.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAwCoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:56:16.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Imagenes.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.cs",
-              "RelativeDocumentMoniker": "Imagenes.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.cs",
-              "RelativeToolTip": "Imagenes.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAADwvzYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T21:58:51.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Categoria.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Categoria.cs",
-              "RelativeToolTip": "..\\Dominio\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:27:08.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Imagen.cs",
-              "RelativeToolTip": "..\\Dominio\\Imagen.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:03:19.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "..\\Dominio\\Articulo.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:10:23.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AgregarImagen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.Designer.cs",
-              "RelativeDocumentMoniker": "AgregarImagen.Designer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.Designer.cs",
-              "RelativeToolTip": "AgregarImagen.Designer.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAvwGkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:54:48.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.cs",
-              "RelativeDocumentMoniker": "Categorias.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.cs",
-              "RelativeToolTip": "Categorias.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAmwDQAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:17:55.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Categorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.cs",
-              "RelativeDocumentMoniker": "Categorias.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Categorias.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:20:42.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "MarcasNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\MarcasNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\MarcasNegocio.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\MarcasNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\MarcasNegocio.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAqwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:16:23.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "AgregarCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarCategoria.cs",
               "RelativeDocumentMoniker": "AgregarCategoria.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "AgregarCategoria.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\AgregarCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\AgregarCategoria.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:42:05.272Z"
+              "WhenOpened": "2024-04-28T23:00:32.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Marcas.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.cs",
-              "RelativeDocumentMoniker": "Marcas.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.cs",
-              "RelativeToolTip": "Marcas.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAIA4wDYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:47:54.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 16,
               "Title": "AgregarCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarCategoria.cs",
               "RelativeDocumentMoniker": "AgregarCategoria.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarCategoria.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarCategoria.cs",
               "RelativeToolTip": "AgregarCategoria.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAA5wB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -549,11 +406,476 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AgregarMarca.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.cs",
+              "RelativeDocumentMoniker": "AgregarMarca.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\AgregarMarca.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\AgregarMarca.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:55:14.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgregarImagen.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.cs",
+              "RelativeDocumentMoniker": "AgregarImagen.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\AgregarImagen.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\AgregarImagen.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:00:40.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AgregarImagen.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.cs",
+              "RelativeDocumentMoniker": "AgregarImagen.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.cs",
+              "RelativeToolTip": "AgregarImagen.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwCoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:56:16.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AgregarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarCategoria.cs",
+              "RelativeDocumentMoniker": "AgregarCategoria.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarCategoria.cs",
+              "RelativeToolTip": "AgregarCategoria.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:00:32.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AgregarMarca.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.cs",
+              "RelativeDocumentMoniker": "AgregarMarca.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.cs",
+              "RelativeToolTip": "AgregarMarca.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:00:48.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AgregarMarca.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.cs",
+              "RelativeDocumentMoniker": "AgregarMarca.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.cs",
+              "RelativeToolTip": "AgregarMarca.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:14:31.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DatosArticulos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.cs",
+              "RelativeDocumentMoniker": "DatosArticulos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\DatosArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\DatosArticulos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:48:39.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nueva carpeta\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Negocio\\AccesoDatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:54:23.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "verDetalle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verDetalle.cs",
+              "RelativeDocumentMoniker": "verDetalle.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\verDetalle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\verDetalle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T19:42:46.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Marcas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Marcas.cs",
+              "RelativeDocumentMoniker": "Marcas.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\Marcas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\Marcas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:59:33.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Imagenes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Imagenes.cs",
+              "RelativeDocumentMoniker": "Imagenes.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\Imagenes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\Imagenes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:58:47.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "verDetalle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verDetalle.cs",
+              "RelativeDocumentMoniker": "verDetalle.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Programacion 3\\verDetalle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Programacion 3\\verDetalle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:01:04.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AgregarImagen.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.cs",
+              "RelativeDocumentMoniker": "AgregarImagen.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarImagen.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\AgregarImagen.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:54:12.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AgregarCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarCategoria.cs",
+              "RelativeDocumentMoniker": "AgregarCategoria.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\AgregarCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:42:05.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Categorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Categorias.cs",
+              "RelativeDocumentMoniker": "Categorias.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\Categorias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:20:42.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Marcas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Marcas.cs",
+              "RelativeDocumentMoniker": "Marcas.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\Marcas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:10:46.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Imagenes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Imagenes.cs",
+              "RelativeDocumentMoniker": "Imagenes.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\Imagenes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:55:57.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAjwK8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:54:22.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs",
+              "RelativeToolTip": "Principal.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAADgvzwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:17:32.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\Principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:17:25.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DatosArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.cs",
+              "RelativeDocumentMoniker": "DatosArticulos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.cs",
+              "RelativeToolTip": "DatosArticulos.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAYwGwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:48:39.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nueva carpeta\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:54:27.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CategoriasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\CategoriasNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nueva carpeta\\Negocio\\CategoriasNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Nueva carpeta\\Negocio\\CategoriasNegocio.cs",
+              "RelativeToolTip": "..\\..\\Nueva carpeta\\Negocio\\CategoriasNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:54:35.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Negocio\\AccesoDatos.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:21:31.472Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "DatosArticulos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.cs",
+              "RelativeDocumentMoniker": "DatosArticulos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\DatosArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\DatosArticulos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:15:58.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DatosArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.cs",
+              "RelativeDocumentMoniker": "DatosArticulos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.cs",
+              "RelativeToolTip": "DatosArticulos.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAArwBkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:16:05.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "verDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verDetalle.cs",
+              "RelativeDocumentMoniker": "verDetalle.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\verDetalle.cs",
+              "RelativeToolTip": "verDetalle.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T19:37:28.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AgregarMarca.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarMarca.cs",
+              "RelativeDocumentMoniker": "AgregarMarca.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\AgregarMarca.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\AgregarMarca.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:44:10.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Principal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.Designer.cs",
+              "RelativeDocumentMoniker": "Principal.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Principal.Designer.cs",
+              "RelativeToolTip": "Principal.Designer.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAkwEcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:08:22.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:27:30.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DatosArticulos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.Designer.cs",
+              "RelativeDocumentMoniker": "DatosArticulos.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\DatosArticulos.Designer.cs",
+              "RelativeToolTip": "DatosArticulos.Designer.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAAANQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:14:24.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ImagenesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ImagenesNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Negocio\\ImagenesNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\ImagenesNegocio.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Negocio\\ImagenesNegocio.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:04:39.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Imagenes.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Imagenes.cs",
+              "RelativeDocumentMoniker": "Imagenes.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Imagenes.cs",
+              "RelativeToolTip": "Imagenes.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvzYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:58:51.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Categoria.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Dominio\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:27:08.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Imagen.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Imagen.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Dominio\\Imagen.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:03:19.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Dominio\\Articulo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:10:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AgregarImagen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.Designer.cs",
+              "RelativeDocumentMoniker": "AgregarImagen.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\AgregarImagen.Designer.cs",
+              "RelativeToolTip": "AgregarImagen.Designer.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAvwGkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:54:48.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Categorias.cs",
+              "RelativeDocumentMoniker": "Categorias.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Categorias.cs",
+              "RelativeToolTip": "Categorias.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwDQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:17:55.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MarcasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\MarcasNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Negocio\\MarcasNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\MarcasNegocio.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Negocio\\MarcasNegocio.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAqwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:16:23.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Marcas.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Marcas.cs",
+              "RelativeDocumentMoniker": "Marcas.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Marcas.cs",
+              "RelativeToolTip": "Marcas.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAIA4wDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:47:54.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "Imagenes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Imagenes.Designer.cs",
               "RelativeDocumentMoniker": "Imagenes.Designer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Imagenes.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Imagenes.Designer.cs",
               "RelativeToolTip": "Imagenes.Designer.cs",
               "ViewState": "AQIAAE0AAAAAAAAAAAAvwFwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -561,11 +883,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "Marcas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Marcas.Designer.cs",
               "RelativeDocumentMoniker": "Marcas.Designer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Marcas.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Marcas.Designer.cs",
               "RelativeToolTip": "Marcas.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -573,23 +895,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 57,
               "Title": "CategoriasNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\CategoriasNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\CategoriasNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Negocio\\CategoriasNegocio.cs",
               "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Negocio\\CategoriasNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\CategoriasNegocio.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Negocio\\CategoriasNegocio.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAE8AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T19:17:16.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "Categorias.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Categorias.Designer.cs",
               "RelativeDocumentMoniker": "Categorias.Designer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\Categorias.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\tp-winform-equipo-A\\Programacion 3\\Categorias.Designer.cs",
               "RelativeToolTip": "Categorias.Designer.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAAAQwGMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -597,42 +919,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 58,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Marca.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Dominio\\Marca.cs",
               "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Dominio\\Marca.cs",
-              "RelativeToolTip": "..\\Dominio\\Marca.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Dominio\\Marca.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T22:27:23.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "ListaArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs",
-              "RelativeDocumentMoniker": "ListaArticulos.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Programacion 3\\ListaArticulos.cs",
               "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ListaArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\ListaArticulos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T19:35:59.223Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "ListaArticulos.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs",
-              "RelativeDocumentMoniker": "ListaArticulos.cs",
+              "RelativeDocumentMoniker": "..\\..\\Programacion3\\Programacion 3\\ListaArticulos.cs",
               "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\Programacion3\\Programacion 3\\ListaArticulos.cs",
-              "RelativeToolTip": "ListaArticulos.cs",
+              "RelativeToolTip": "..\\..\\Programacion3\\Programacion 3\\ListaArticulos.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T19:36:15.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "ArticulosNegocio.cs",
               "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Negocio\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Negocio\\ArticulosNegocio.cs",
@@ -643,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\kowal\\Desktop\\UTN\\2024\\Programacion\\Actividad 2\\Repositorio\\Programacion3\\Negocio\\AccesoDatos.cs",

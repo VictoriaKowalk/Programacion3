@@ -26,10 +26,25 @@ namespace Programacion_3
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
+        private bool validarCategoria()
+        {
+            if (txtNombreCategoria.Text == "")
+            {
+                MessageBox.Show("La categoría debe tener un nombre.");
+                return false;
+            }
+            return true;
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Categoria categoria = new Categoria();
             CategoriasNegocio negocio = new CategoriasNegocio();
+
+            if (!validarCategoria())
+            {
+                return;
+            }
 
             try
             {

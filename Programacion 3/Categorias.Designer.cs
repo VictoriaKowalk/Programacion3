@@ -70,7 +70,7 @@
             this.button1.Location = new System.Drawing.Point(39, 65);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 50;
+            this.button1.TabIndex = 2;
             this.button1.Text = "Eliminar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -80,7 +80,7 @@
             this.button2.Location = new System.Drawing.Point(39, 20);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 49;
+            this.button2.TabIndex = 1;
             this.button2.Text = "Agregar";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -97,7 +97,7 @@
             this.dgvCategorias.RowHeadersWidth = 51;
             this.dgvCategorias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCategorias.Size = new System.Drawing.Size(559, 278);
-            this.dgvCategorias.TabIndex = 47;
+            this.dgvCategorias.TabIndex = 0;
             // 
             // btnVolver
             // 
@@ -105,7 +105,7 @@
             this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(56, 19);
-            this.btnVolver.TabIndex = 46;
+            this.btnVolver.TabIndex = 3;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnBuscar_Click_1);

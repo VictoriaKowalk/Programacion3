@@ -23,30 +23,30 @@ namespace Programacion_3
             this.BackgroundImageLayout = ImageLayout.Stretch;   //para que sea ajustable en tamaño
         }
 
-        private void AgregarMarca_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private bool validarMarca()
+        {
+            if (txtNombreMarca.Text == "")
+            {
+                MessageBox.Show("La marca debe tener un nombre.");
+                return false;
+            }
+            return true;
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Marca marca = new Marca();
             MarcasNegocio negocio = new MarcasNegocio();
+
+            if (!validarMarca())
+            {
+                return;
+            }
 
             try
             {

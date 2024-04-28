@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-
 using Dominio;
-
 
 namespace Negocio
 {
     public class ArticulosNegocio
     {
-        public object MessageBox { get; private set; }
-
         public List<Articulo> listar()
         {
             List<Articulo> lista = new List<Articulo>();
@@ -65,16 +61,9 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-
                 // Insertar en ARTICULOS
                 string consulta = "INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, Precio, IdMarca, IdCategoria) VALUES (@Codigo, @Nombre, @Descripcion, @Precio, @IDMarca, @IDCategoria);";
-               
-                if (consulta != "")
-                {
-                    
-                }
                 datos.setConsulta(consulta);
-                
 
                 // Establecer parámetros para el artículo
                 datos.setParametros("@Codigo", nuevo.Codigo);
@@ -83,9 +72,8 @@ namespace Negocio
                 datos.setParametros("@Precio", nuevo.Precio);
                 datos.setParametros("@IDMarca", nuevo.Marca.IDMarca);
                 datos.setParametros("@IDCategoria", nuevo.Categoria.IDCategoria);
-                
                 datos.ejecutarAccion();
-                
+
             }
             catch (Exception ex)
             {
@@ -115,7 +103,6 @@ namespace Negocio
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -238,18 +225,13 @@ namespace Negocio
                     aux.Categoria.Nombre = (string)datos.Lector["Categoria"];
                     aux.Categoria.IDCategoria = (int)datos.Lector["IDCategoria"];
 
-                    
-
                     lista.Add(aux);
-
                 }
-
 
                 return lista;
             }
             catch (Exception ex)
             {
-
                 throw;
             }
         }

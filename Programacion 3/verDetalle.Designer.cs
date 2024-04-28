@@ -114,7 +114,7 @@
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.ReadOnly = true;
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
-            this.txtCodigo.TabIndex = 6;
+            this.txtCodigo.TabIndex = 1;
             // 
             // txtDescripcion
             // 
@@ -122,7 +122,7 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.ReadOnly = true;
             this.txtDescripcion.Size = new System.Drawing.Size(100, 20);
-            this.txtDescripcion.TabIndex = 7;
+            this.txtDescripcion.TabIndex = 2;
             // 
             // txtNombre
             // 
@@ -130,7 +130,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ReadOnly = true;
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
-            this.txtNombre.TabIndex = 8;
+            this.txtNombre.TabIndex = 3;
             // 
             // txtPrecio
             // 
@@ -138,7 +138,7 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.ReadOnly = true;
             this.txtPrecio.Size = new System.Drawing.Size(100, 20);
-            this.txtPrecio.TabIndex = 9;
+            this.txtPrecio.TabIndex = 4;
             // 
             // txtMarca
             // 
@@ -146,7 +146,7 @@
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.ReadOnly = true;
             this.txtMarca.Size = new System.Drawing.Size(100, 20);
-            this.txtMarca.TabIndex = 10;
+            this.txtMarca.TabIndex = 5;
             // 
             // txtCategoria
             // 
@@ -154,7 +154,7 @@
             this.txtCategoria.Name = "txtCategoria";
             this.txtCategoria.ReadOnly = true;
             this.txtCategoria.Size = new System.Drawing.Size(100, 20);
-            this.txtCategoria.TabIndex = 11;
+            this.txtCategoria.TabIndex = 6;
             // 
             // pbxArticulosDetalle
             // 
@@ -171,7 +171,7 @@
             this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(56, 19);
-            this.btnVolver.TabIndex = 34;
+            this.btnVolver.TabIndex = 7;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -182,7 +182,7 @@
             this.txtIDArticulo.Name = "txtIDArticulo";
             this.txtIDArticulo.ReadOnly = true;
             this.txtIDArticulo.Size = new System.Drawing.Size(100, 20);
-            this.txtIDArticulo.TabIndex = 36;
+            this.txtIDArticulo.TabIndex = 0;
             // 
             // lblID
             // 

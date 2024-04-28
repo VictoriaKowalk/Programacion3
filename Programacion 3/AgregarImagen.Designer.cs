@@ -41,7 +41,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(136, 80);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 13;
+            this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -51,7 +51,7 @@
             this.btnVolver.Location = new System.Drawing.Point(248, 111);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
-            this.btnVolver.TabIndex = 12;
+            this.btnVolver.TabIndex = 3;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -61,7 +61,7 @@
             this.txtURL.Location = new System.Drawing.Point(136, 22);
             this.txtURL.Name = "txtURL";
             this.txtURL.Size = new System.Drawing.Size(179, 20);
-            this.txtURL.TabIndex = 11;
+            this.txtURL.TabIndex = 0;
             // 
             // lblURL
             // 
@@ -78,7 +78,7 @@
             this.txtIDArticulo.Location = new System.Drawing.Point(136, 54);
             this.txtIDArticulo.Name = "txtIDArticulo";
             this.txtIDArticulo.Size = new System.Drawing.Size(179, 20);
-            this.txtIDArticulo.TabIndex = 15;
+            this.txtIDArticulo.TabIndex = 1;
             // 
             // lblIDArticulo
             // 

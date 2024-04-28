@@ -28,30 +28,44 @@ namespace Programacion_3
             this.Close();
         }
 
+        private bool validarImagen()
+        {
+            if (txtIDArticulo.Text == "" || txtURL.Text == "")
+            {
+                MessageBox.Show("Por favor complete todos los campos.");
+                return false;
+            }
+            foreach (char caracter in txtIDArticulo.Text)
+            {
+                if (!char.IsNumber(caracter))
+                {
+                    MessageBox.Show("El ID de artículo debe ser numérico.");
+                    return false;
+                }
+            }
+            return true;
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             ImagenesNegocio negocio = new ImagenesNegocio();
 
-            if (txtIDArticulo.Text == "" || txtURL.Text == "")
+            if (!validarImagen())
             {
-                MessageBox.Show("Por favor complete todos los campos.");
+                return;
             }
-            else
+            try
             {
-                try
-                {
-                    Imagen imagen = new Imagen();
-                    imagen.IDArticulo = int.Parse(txtIDArticulo.Text);
-                    imagen.ImagenUrl = txtURL.Text;
-                    negocio.agregarImagen(imagen);
-                    MessageBox.Show("Se agregó la imagen exitosamente.");
-                    Close();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-
-                }
+                Imagen imagen = new Imagen();
+                imagen.IDArticulo = int.Parse(txtIDArticulo.Text);
+                imagen.ImagenUrl = txtURL.Text;
+                negocio.agregarImagen(imagen);
+                MessageBox.Show("Se agregó la imagen exitosamente.");
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
             }
         }
     }

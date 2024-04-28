@@ -67,7 +67,7 @@
             this.dgvPrincipal.RowHeadersWidth = 51;
             this.dgvPrincipal.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPrincipal.Size = new System.Drawing.Size(694, 227);
-            this.dgvPrincipal.TabIndex = 12;
+            this.dgvPrincipal.TabIndex = 0;
             this.dgvPrincipal.SelectionChanged += new System.EventHandler(this.dgvPrincipal_SelectionChanged);
             // 
             // pbxPrincipal
@@ -84,7 +84,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(269, 321);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(100, 23);
-            this.btnAgregar.TabIndex = 6;
+            this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "Agregar artículo";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -130,7 +130,7 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(1273, 24);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // imágenesToolStripMenuItem
@@ -153,7 +153,7 @@
             this.btnModificar.Location = new System.Drawing.Point(397, 321);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(100, 23);
-            this.btnModificar.TabIndex = 7;
+            this.btnModificar.TabIndex = 8;
             this.btnModificar.Text = "Modificar artículo";
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
@@ -163,7 +163,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(525, 321);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(100, 23);
-            this.btnEliminar.TabIndex = 8;
+            this.btnEliminar.TabIndex = 9;
             this.btnEliminar.Text = "Eliminar artículo";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -173,7 +173,7 @@
             this.btnImagenAnterior.Location = new System.Drawing.Point(1012, 321);
             this.btnImagenAnterior.Name = "btnImagenAnterior";
             this.btnImagenAnterior.Size = new System.Drawing.Size(100, 23);
-            this.btnImagenAnterior.TabIndex = 14;
+            this.btnImagenAnterior.TabIndex = 11;
             this.btnImagenAnterior.Text = "<< Anterior";
             this.btnImagenAnterior.UseVisualStyleBackColor = true;
             this.btnImagenAnterior.Click += new System.EventHandler(this.btnImagenAnterior_Click);
@@ -183,7 +183,7 @@
             this.btnImagenSiguiente.Location = new System.Drawing.Point(1127, 321);
             this.btnImagenSiguiente.Name = "btnImagenSiguiente";
             this.btnImagenSiguiente.Size = new System.Drawing.Size(100, 23);
-            this.btnImagenSiguiente.TabIndex = 15;
+            this.btnImagenSiguiente.TabIndex = 12;
             this.btnImagenSiguiente.Text = "Siguiente >>";
             this.btnImagenSiguiente.UseVisualStyleBackColor = true;
             this.btnImagenSiguiente.Click += new System.EventHandler(this.btnImagenSiguiente_Click);
@@ -203,7 +203,7 @@
             this.btnFiltro.Location = new System.Drawing.Point(149, 238);
             this.btnFiltro.Name = "btnFiltro";
             this.btnFiltro.Size = new System.Drawing.Size(100, 23);
-            this.btnFiltro.TabIndex = 19;
+            this.btnFiltro.TabIndex = 5;
             this.btnFiltro.Text = "Aplicar filtro";
             this.btnFiltro.UseVisualStyleBackColor = true;
             this.btnFiltro.Click += new System.EventHandler(this.btnFiltro_Click);
@@ -235,7 +235,7 @@
             this.cboCampo.Location = new System.Drawing.Point(128, 113);
             this.cboCampo.Name = "cboCampo";
             this.cboCampo.Size = new System.Drawing.Size(121, 21);
-            this.cboCampo.TabIndex = 23;
+            this.cboCampo.TabIndex = 2;
             this.cboCampo.SelectedIndexChanged += new System.EventHandler(this.cboCampo_SelectedIndexChanged);
             // 
             // cboCriterio
@@ -245,21 +245,21 @@
             this.cboCriterio.Location = new System.Drawing.Point(128, 155);
             this.cboCriterio.Name = "cboCriterio";
             this.cboCriterio.Size = new System.Drawing.Size(121, 21);
-            this.cboCriterio.TabIndex = 24;
+            this.cboCriterio.TabIndex = 3;
             // 
             // txtFiltro
             // 
             this.txtFiltro.Location = new System.Drawing.Point(128, 197);
             this.txtFiltro.Name = "txtFiltro";
             this.txtFiltro.Size = new System.Drawing.Size(121, 20);
-            this.txtFiltro.TabIndex = 25;
+            this.txtFiltro.TabIndex = 4;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(653, 321);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 26;
+            this.button1.TabIndex = 10;
             this.button1.Text = "Ver Detalle";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -269,7 +269,7 @@
             this.lblDesactivarFiltro.Location = new System.Drawing.Point(149, 282);
             this.lblDesactivarFiltro.Name = "lblDesactivarFiltro";
             this.lblDesactivarFiltro.Size = new System.Drawing.Size(100, 23);
-            this.lblDesactivarFiltro.TabIndex = 27;
+            this.lblDesactivarFiltro.TabIndex = 6;
             this.lblDesactivarFiltro.Text = "Resetear filtro";
             this.lblDesactivarFiltro.UseVisualStyleBackColor = true;
             this.lblDesactivarFiltro.Click += new System.EventHandler(this.lblDesactivarFiltro_Click);
