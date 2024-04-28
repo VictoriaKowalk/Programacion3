@@ -103,13 +103,16 @@ namespace TrabajoPractico
             dgvPrincipal.Columns["Categoria"].HeaderText = "Categoría";
             // Si el artículo tiene imágenes, se carga la primera, de lo contrario
             // se setea la imagen vacía.
-            if (listaArticulos[0].Imagenes.Count() > 0)
+            if (listaArticulos.Count() > 0)
             {
-                CargarImagen(listaArticulos[0].Imagenes[0].ImagenUrl);
-            } 
-            else
-            {
-                CargarImagen();
+                if (listaArticulos[0].Imagenes.Count() > 0)
+                {
+                    CargarImagen(listaArticulos[0].Imagenes[0].ImagenUrl);
+                }
+                else
+                {
+                    CargarImagen();
+                }
             }
         }
 

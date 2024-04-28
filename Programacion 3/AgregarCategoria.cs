@@ -33,6 +33,11 @@ namespace Programacion_3
                 MessageBox.Show("La categoría debe tener un nombre.");
                 return false;
             }
+            if (txtNombreCategoria.Text.Length > 50)
+            {
+                MessageBox.Show("El nombre de la categoría es muy largo.");
+                return false;
+            }
             return true;
         }
 

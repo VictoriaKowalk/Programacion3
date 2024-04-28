@@ -57,7 +57,10 @@ namespace Programacion_3
             dgvImagenes.Columns["IDImagen"].Visible = false;
             dgvImagenes.Columns["IDArticulo"].HeaderText = "ID de artículo asociado";
             dgvImagenes.Columns["ImagenURL"].HeaderText = "Enlace";
-            CargarImagen(listaImagenes[0].ImagenUrl);
+            if(listaImagenes.Count() > 0)
+            {
+                CargarImagen(listaImagenes[0].ImagenUrl);
+            }
         }
 
         private void dgvImagenes_SelectionChanged(object sender, EventArgs e)

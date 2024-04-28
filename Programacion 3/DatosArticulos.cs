@@ -122,10 +122,24 @@ namespace Programacion_3
                 MessageBox.Show("El precio debe ser un valor numérico.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
-
+            if (txtCodigo.Text.Length > 50)
+            {
+                MessageBox.Show("El código no puede superar los 50 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            if (txtNombre.Text.Length > 50)
+            {
+                MessageBox.Show("El nombre no puede superar los 50 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            if (txtDescripcion.Text.Length > 150)
+            {
+                MessageBox.Show("La descripción no puede superar los 150 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
             if (txtImagen.Text.Length > 255)
             {
-                MessageBox.Show("La URL de la imagen es demasiado larga. Por favor, ingrese una URL más corta.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("La URL de la imagen no puede superar los 255 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             return true;

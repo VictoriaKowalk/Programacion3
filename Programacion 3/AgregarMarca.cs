@@ -35,6 +35,11 @@ namespace Programacion_3
                 MessageBox.Show("La marca debe tener un nombre.");
                 return false;
             }
+            if (txtNombreMarca.Text.Length > 50)
+            {
+                MessageBox.Show("El nombre de la marca es muy largo.");
+                return false;
+            }
             return true;
         }
 
