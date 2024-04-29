@@ -119,27 +119,27 @@ namespace Programacion_3
             decimal precio;
             if (!decimal.TryParse(txtPrecio.Text, out precio))
             {
-                MessageBox.Show("El precio debe ser un valor numérico.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("El precio debe ser un valor numérico.", "Error de formato", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             if (txtCodigo.Text.Length > 50)
             {
-                MessageBox.Show("El código no puede superar los 50 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("El código no puede superar los 50 caracteres.", "Error de longitud", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             if (txtNombre.Text.Length > 50)
             {
-                MessageBox.Show("El nombre no puede superar los 50 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("El nombre no puede superar los 50 caracteres.", "Error de longitud", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             if (txtDescripcion.Text.Length > 150)
             {
-                MessageBox.Show("La descripción no puede superar los 150 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("La descripción no puede superar los 150 caracteres.", "Error de longitud", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             if (txtImagen.Text.Length > 255)
             {
-                MessageBox.Show("La URL de la imagen no puede superar los 255 caracteres.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("La URL de la imagen no puede superar los 255 caracteres.", "Error de longitud", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             return true;
@@ -209,7 +209,6 @@ namespace Programacion_3
                         // Se obtiene el artículo al cual se va a vincular la imagen
                         imagen.IDArticulo = negocio.obtenerIDArticulo();
                         imagen.ImagenUrl = txtImagen.Text;
-                        MessageBox.Show(imagen.IDArticulo.ToString());
                         negocioImagenes.agregarImagen(imagen);
                     }
                     MessageBox.Show("Agregado exitosamente.");
@@ -218,7 +217,6 @@ namespace Programacion_3
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.ToString());
             }
         }

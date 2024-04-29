@@ -236,6 +236,8 @@
             // lblCampos
             // 
             this.lblCampos.AutoSize = true;
+            this.lblCampos.BackColor = System.Drawing.Color.Transparent;
+            this.lblCampos.ForeColor = System.Drawing.Color.Red;
             this.lblCampos.Location = new System.Drawing.Point(20, 276);
             this.lblCampos.Name = "lblCampos";
             this.lblCampos.Size = new System.Drawing.Size(108, 13);
